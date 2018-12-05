@@ -1,0 +1,47 @@
+{
+  "name": "example-create-react-app-express",
+  "version": "1.0.0",
+  "description":
+    "Example on using create-react-app with a Node Express Backend",
+  "author": {
+    "name": "Huy Vo",
+    "email": "huyvanvo94@gmail.com",
+    "url": "github.com/huyvanvo94"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev_run": "nodemon server.js",
+    "client": "npm run start --prefix client",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
+    "dev:server": "cd client && yarn build && cd .. && yarn start",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild":
+      "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build",
+    "start_both": "concurrently npm run server && cd client && npm start"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.18.5",
+    "winston": "^3.1.0",
+    "mysql2": "^1.6.1",
+    "request": "^2.88.0",
+    "promise": "^8.0.2",
+    "monk": "^6.0.6",
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esausilva/example-create-react-app-express.git"
+  },
+  "bugs": {
+    "url":
+      "https://github.com/esausilva/example-create-react-app-express/issues"
+  },
+  "keywords": ["node", "express", "create-react-app"]
+}

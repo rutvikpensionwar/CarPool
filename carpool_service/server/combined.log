@@ -1,0 +1,837 @@
+{"timestamp":"2018-11-30 11:00:28 -08:00","level":"info","message":"GET all locations "}
+{"timestamp":"2018-11-30 11:01:29 -08:00","level":"info","message":"Executing query: "}
+{"timestamp":"2018-11-30 11:01:29 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-11-30 11:02:47 -08:00","level":"info","message":"Executing query : SELECT * FROM user WHERE email = 'harry@sjsu.edu'"}
+{"timestamp":"2018-11-30 11:02:47 -08:00","level":"info","message":"Signing in the user: harry@sjsu.edu"}
+{"timestamp":"2018-11-30 11:05:23 -08:00","level":"info","message":"Executing query: "}
+{"timestamp":"2018-11-30 11:05:23 -08:00","level":"info","message":"Getting all users: "}
+{"timestamp":"2018-11-30 11:09:30 -08:00","level":"info","message":"Executing query: "}
+{"timestamp":"2018-11-30 11:09:30 -08:00","level":"info","message":"GET specific user using email id: "}
+{"timestamp":"2018-11-30 11:09:48 -08:00","level":"info","message":"Executing query: "}
+{"timestamp":"2018-11-30 11:09:48 -08:00","level":"info","message":"Getting all users: "}
+{"timestamp":"2018-11-30 11:13:09 -08:00","level":"info","message":"Executing query: "}
+{"timestamp":"2018-11-30 11:13:09 -08:00","level":"info","message":"GET specific user using email id: "}
+{"timestamp":"2018-11-30 11:13:24 -08:00","level":"info","message":"Executing query: "}
+{"timestamp":"2018-11-30 11:13:24 -08:00","level":"info","message":"Getting all users: "}
+{"timestamp":"2018-11-30 11:16:47 -08:00","level":"info","message":"Executing query: "}
+{"timestamp":"2018-11-30 11:16:47 -08:00","level":"info","message":"Get current logged in user info: "}
+{"timestamp":"2018-11-30 11:28:26 -08:00","level":"info","message":"Executing query: "}
+{"timestamp":"2018-11-30 11:28:27 -08:00","level":"info","message":"Get current logged in user info: "}
+{"timestamp":"2018-11-30 11:29:14 -08:00","level":"info","message":"Executing query: "}
+{"timestamp":"2018-11-30 11:31:07 -08:00","level":"info","message":"Executing query : SELECT * FROM user WHERE email = 'harry@sjsu.edu'"}
+{"timestamp":"2018-11-30 11:31:07 -08:00","level":"info","message":"Signing in the user: harry@sjsu.edu"}
+{"timestamp":"2018-11-30 11:31:10 -08:00","level":"info","message":"Executing query: "}
+{"timestamp":"2018-11-30 11:31:10 -08:00","level":"info","message":"Get current logged in user info: [object Object]"}
+{"timestamp":"2018-11-30 11:34:32 -08:00","level":"info","message":"Executing query : INSERT INTO user(email, password, fname, lname, date_of_birth, company, address, phone_number, gender, license_number) VALUES('ginny@sjsu.edu', '$2b$10$ICRlH9PuzfqfNctLqfgw7.WVKruUKI/iEKqYcsPfHv5jCHxKoCTEe', 'Ginny', 'Weasley', '1990-05-05', 'Google', '5th Street, San Jose', '5555555555', 'M', '555555555')"}
+{"timestamp":"2018-11-30 11:34:32 -08:00","level":"info","message":"Signing up the user: ginny@sjsu.edu"}
+{"timestamp":"2018-11-30 11:37:52 -08:00","level":"info","message":"Executing query : INSERT INTO user(email, password, fname, lname, date_of_birth, company, address, phone_number, gender, license_number) VALUES('ginny@sjsu.edu', '$2b$10$AjriyvSGmcg7gXrUD1syA.qVgB2VZjscZ/ZyQuFOGvDeF8seK40dK', 'Ginny', 'Weasley', '1990-05-05', 'Google', '5th Street, San Jose', '5555555555', 'M', '555555555')"}
+{"timestamp":"2018-11-30 11:37:52 -08:00","level":"info","message":"Signing up the user: ginny@sjsu.edu"}
+{"timestamp":"2018-11-30 11:39:40 -08:00","level":"info","message":"Logging out the user: harry@sjsu.edu"}
+{"timestamp":"2018-11-30 11:45:39 -08:00","level":"info","message":"Executing query : SELECT * FROM user WHERE email = 'harry@sjsu.edu'"}
+{"timestamp":"2018-11-30 11:45:39 -08:00","level":"info","message":"Signing in the user: harry@sjsu.edu"}
+{"timestamp":"2018-11-30 11:49:14 -08:00","level":"info","message":"Executing query: "}
+{"timestamp":"2018-11-30 11:49:15 -08:00","level":"info","message":"POST request to add a new post by driver/rider: "}
+{"timestamp":"2018-11-30 11:54:33 -08:00","level":"info","message":"Executing query : SELECT * FROM user WHERE email = 'ron@sjsu.edu'"}
+{"timestamp":"2018-11-30 11:54:33 -08:00","level":"info","message":"Signing in the user: ron@sjsu.edu"}
+{"timestamp":"2018-11-30 11:54:47 -08:00","level":"info","message":"Executing query: "}
+{"timestamp":"2018-11-30 11:54:47 -08:00","level":"info","message":"POST request to add a new post by driver/rider: [object Object]"}
+{"timestamp":"2018-11-30 11:58:58 -08:00","level":"info","message":"Executing query: "}
+{"timestamp":"2018-11-30 11:58:58 -08:00","level":"info","message":"POST request to add a new post by driver/rider"}
+{"timestamp":"2018-11-30 12:37:32 -08:00","level":"info","message":"Executing query: "}
+{"timestamp":"2018-11-30 12:37:32 -08:00","level":"info","message":"POST request to add a new post by driver/rider"}
+{"timestamp":"2018-11-30 12:38:59 -08:00","level":"info","message":"Executing query: "}
+{"timestamp":"2018-11-30 12:38:59 -08:00","level":"info","message":"POST request to add a new post by driver/rider"}
+{"timestamp":"2018-11-30 13:07:44 -08:00","level":"info","message":"Executing query: "}
+{"timestamp":"2018-11-30 13:07:45 -08:00","level":"info","message":"GET all the rider/driver information: [object Object],[object Object],[object Object]"}
+{"timestamp":"2018-11-30 13:09:15 -08:00","level":"info","message":"Executing query: "}
+{"timestamp":"2018-11-30 13:09:15 -08:00","level":"info","message":"GET logged in user's rides (TODAY)"}
+{"timestamp":"2018-11-30 13:15:33 -08:00","level":"info","message":"Connection successful (thread id 5304)"}
+{"timestamp":"2018-11-30 13:16:10 -08:00","level":"info","message":"Connection successful (thread id 5308)"}
+{"timestamp":"2018-11-30 13:16:20 -08:00","level":"info","message":"Connection successful (thread id 5312)"}
+{"timestamp":"2018-11-30 13:16:28 -08:00","level":"info","message":"Connection successful (thread id 5319)"}
+{"timestamp":"2018-11-30 13:16:35 -08:00","level":"info","message":"Connection successful (thread id 5323)"}
+{"timestamp":"2018-11-30 13:16:53 -08:00","level":"info","message":"Connection successful (thread id 5328)"}
+{"timestamp":"2018-11-30 13:17:04 -08:00","level":"info","message":"Connection successful (thread id 5332)"}
+{"timestamp":"2018-11-30 13:17:25 -08:00","level":"info","message":"Connection successful (thread id 5336)"}
+{"timestamp":"2018-11-30 13:17:25 -08:00","level":"info","message":"Connection successful (thread id 5338)"}
+{"timestamp":"2018-11-30 13:17:42 -08:00","level":"info","message":"Connection successful (thread id 5341)"}
+{"timestamp":"2018-11-30 13:17:42 -08:00","level":"info","message":"Connection successful (thread id 5343)"}
+{"timestamp":"2018-11-30 13:18:58 -08:00","level":"info","message":"Connection successful (thread id 5346)"}
+{"timestamp":"2018-11-30 13:18:58 -08:00","level":"info","message":"Connection successful (thread id 5348)"}
+{"timestamp":"2018-11-30 13:19:19 -08:00","level":"info","message":"Connection successful (thread id 5352)"}
+{"timestamp":"2018-11-30 13:19:19 -08:00","level":"info","message":"Connection successful (thread id 5350)"}
+{"timestamp":"2018-11-30 13:19:35 -08:00","level":"info","message":"Connection successful (thread id 5356)"}
+{"timestamp":"2018-11-30 13:19:35 -08:00","level":"info","message":"Connection successful (thread id 5358)"}
+{"timestamp":"2018-11-30 13:19:42 -08:00","level":"info","message":"Connection successful (thread id 5361)"}
+{"timestamp":"2018-11-30 13:19:42 -08:00","level":"info","message":"Connection successful (thread id 5363)"}
+{"timestamp":"2018-11-30 13:20:46 -08:00","level":"info","message":"Connection successful (thread id 5365)"}
+{"timestamp":"2018-11-30 13:20:46 -08:00","level":"info","message":"Connection successful (thread id 5367)"}
+{"timestamp":"2018-11-30 13:20:46 -08:00","level":"info","message":"Connection successful (thread id 5368)"}
+{"timestamp":"2018-11-30 13:20:59 -08:00","level":"info","message":"Connection successful (thread id 5371)"}
+{"timestamp":"2018-11-30 13:20:59 -08:00","level":"info","message":"Connection successful (thread id 5370)"}
+{"timestamp":"2018-11-30 13:20:59 -08:00","level":"info","message":"Connection successful (thread id 5373)"}
+{"timestamp":"2018-11-30 13:21:21 -08:00","level":"info","message":"Connection successful (thread id 5375)"}
+{"timestamp":"2018-11-30 13:21:21 -08:00","level":"info","message":"Connection successful (thread id 5376)"}
+{"timestamp":"2018-11-30 13:21:21 -08:00","level":"info","message":"Connection successful (thread id 5378)"}
+{"timestamp":"2018-11-30 13:21:31 -08:00","level":"info","message":"Connection successful (thread id 5380)"}
+{"timestamp":"2018-11-30 13:21:31 -08:00","level":"info","message":"Connection successful (thread id 5381)"}
+{"timestamp":"2018-11-30 13:21:31 -08:00","level":"info","message":"Connection successful (thread id 5383)"}
+{"timestamp":"2018-11-30 13:22:21 -08:00","level":"info","message":"Connection successful (thread id 5385)"}
+{"timestamp":"2018-11-30 13:22:21 -08:00","level":"info","message":"Connection successful (thread id 5386)"}
+{"timestamp":"2018-11-30 13:22:21 -08:00","level":"info","message":"Connection successful (thread id 5388)"}
+{"timestamp":"2018-11-30 13:24:19 -08:00","level":"info","message":"Executing query: \nSELECT * FROM `ride` JOIN `rided` ON `ride`.ride_id = `rided`.ride_id WHERE DATE(`ride`.journey_start_time) = 'admin@sjsu.edu'"}
+{"timestamp":"2018-11-30 13:24:19 -08:00","level":"info","message":"GET logged in user's rides (TODAY): \n"}
+{"timestamp":"2018-11-30 13:25:05 -08:00","level":"info","message":"Executing query : \nSELECT * FROM user WHERE email = 'harry@sjsu.edu'"}
+{"timestamp":"2018-11-30 13:25:05 -08:00","level":"info","message":"Signing in the user: \nharry@sjsu.edu"}
+{"timestamp":"2018-11-30 13:25:50 -08:00","level":"info","message":"Executing query: CALL create_matches('harry@sjsu.edu', @new_ride_id)"}
+{"timestamp":"2018-11-30 13:25:50 -08:00","level":"info","message":"POST request to match driver with riders: \n[object Object],[object Object]"}
+{"timestamp":"2018-11-30 13:27:00 -08:00","level":"info","message":"Executing query: \nSELECT * FROM `ride` JOIN `rided` ON `ride`.ride_id = `rided`.ride_id WHERE `rided`.email = 'harry@sjsu.edu' AND DATE(`ride`.journey_start_time) = CURDATE()"}
+{"timestamp":"2018-11-30 13:27:00 -08:00","level":"info","message":"GET logged in user's rides (TODAY): \n[object Object]"}
+{"timestamp":"2018-11-30 13:27:29 -08:00","level":"info","message":"Executing query: \nSELECT * FROM `ride` JOIN `rided` ON `ride`.ride_id = `rided`.ride_id WHERE `rided`.email = 'harry@sjsu.edu' AND DATE(`ride`.journey_start_time) = CURDATE()"}
+{"timestamp":"2018-11-30 13:27:29 -08:00","level":"info","message":"GET logged in user's rides (TODAY): \n[object Object]"}
+{"timestamp":"2018-11-30 13:28:09 -08:00","level":"info","message":"Executing query: \nSELECT * FROM `ride` JOIN `rided` ON `ride`.ride_id = `rided`.ride_id WHERE `rided`.email = 'harry@sjsu.edu' AND DATE(`ride`.journey_start_time) < CURDATE()"}
+{"timestamp":"2018-11-30 13:28:09 -08:00","level":"info","message":"GET logged in user's all rides (HISTORY): \n[object Object]"}
+{"timestamp":"2018-11-30 13:31:19 -08:00","level":"info","message":"Executing query : \nSELECT * FROM user WHERE email = 'harry@sjsu.edu'"}
+{"timestamp":"2018-11-30 13:31:20 -08:00","level":"info","message":"Signing in the user: \nharry@sjsu.edu"}
+{"timestamp":"2018-11-30 13:31:25 -08:00","level":"info","message":"Executing query: \nSELECT * FROM `ride` JOIN `rided` ON `ride`.ride_id = `rided`.ride_id WHERE `rided`.email = 'harry@sjsu.edu' AND DATE(`ride`.journey_start_time) < CURDATE()"}
+{"timestamp":"2018-11-30 13:31:25 -08:00","level":"info","message":"GET logged in user's all rides (HISTORY): \n[object Object]"}
+{"timestamp":"2018-11-30 13:32:20 -08:00","level":"info","message":"Executing query: \nSELECT * FROM `ride` JOIN `rided` ON `ride`.ride_id = `rided`.ride_id WHERE `rided`.email = 'harry@sjsu.edu' AND `rided`.ride_id = '1000'"}
+{"timestamp":"2018-11-30 13:32:20 -08:00","level":"info","message":"GET logged in user's specific ride: \n[object Object]"}
+{"timestamp":"2018-11-30 13:32:25 -08:00","level":"info","message":"Executing query: \nSELECT * FROM `ride` JOIN `rided` ON `ride`.ride_id = `rided`.ride_id WHERE `rided`.email = 'harry@sjsu.edu' AND `rided`.ride_id = '1001'"}
+{"timestamp":"2018-11-30 13:32:25 -08:00","level":"info","message":"GET logged in user's specific ride: \n[object Object]"}
+{"timestamp":"2018-11-30 13:37:57 -08:00","level":"info","message":"Connection successful (thread id 5390)"}
+{"timestamp":"2018-11-30 13:37:57 -08:00","level":"info","message":"Connection successful (thread id 5391)"}
+{"timestamp":"2018-11-30 13:37:57 -08:00","level":"info","message":"Connection successful (thread id 5394)"}
+{"timestamp":"2018-11-30 13:40:19 -08:00","level":"info","message":"Connection successful (thread id 5396)"}
+{"timestamp":"2018-11-30 13:40:19 -08:00","level":"info","message":"Connection successful (thread id 5399)"}
+{"timestamp":"2018-11-30 13:40:19 -08:00","level":"info","message":"Connection successful (thread id 5397)"}
+{"timestamp":"2018-11-30 13:42:21 -08:00","level":"info","message":"Executing query: \nselect * from user where user.email = 'harry@sjsu.edu'"}
+{"timestamp":"2018-11-30 13:42:21 -08:00","level":"info","message":"Get current logged in user info: [object Object]"}
+{"timestamp":"2018-11-30 13:42:40 -08:00","level":"info","message":"Logging out the user: \nharry@sjsu.edu"}
+{"timestamp":"2018-11-30 13:43:04 -08:00","level":"info","message":"Connection successful (thread id 5400)"}
+{"timestamp":"2018-11-30 13:43:04 -08:00","level":"info","message":"Connection successful (thread id 5402)"}
+{"timestamp":"2018-11-30 13:43:04 -08:00","level":"info","message":"Connection successful (thread id 5404)"}
+{"timestamp":"2018-11-30 13:43:52 -08:00","level":"info","message":"Connection successful (thread id 5405)"}
+{"timestamp":"2018-11-30 13:43:52 -08:00","level":"info","message":"Connection successful (thread id 5408)"}
+{"timestamp":"2018-11-30 13:43:52 -08:00","level":"info","message":"Connection successful (thread id 5406)"}
+{"timestamp":"2018-11-30 13:43:58 -08:00","level":"info","message":"Executing query: \nselect * from user where user.email = NULL"}
+{"timestamp":"2018-11-30 13:43:58 -08:00","level":"info","message":"Get current logged in user info: "}
+{"timestamp":"2018-11-30 13:44:27 -08:00","level":"info","message":"Connection successful (thread id 5410)"}
+{"timestamp":"2018-11-30 13:44:27 -08:00","level":"info","message":"Connection successful (thread id 5411)"}
+{"timestamp":"2018-11-30 13:44:27 -08:00","level":"info","message":"Connection successful (thread id 5413)"}
+{"timestamp":"2018-11-30 13:44:35 -08:00","level":"info","message":"Connection successful (thread id 5416)"}
+{"timestamp":"2018-11-30 13:44:35 -08:00","level":"info","message":"Connection successful (thread id 5417)"}
+{"timestamp":"2018-11-30 13:44:35 -08:00","level":"info","message":"Connection successful (thread id 5418)"}
+{"timestamp":"2018-11-30 13:44:38 -08:00","level":"info","message":"Connection successful (thread id 5421)"}
+{"timestamp":"2018-11-30 13:44:38 -08:00","level":"info","message":"Connection successful (thread id 5420)"}
+{"timestamp":"2018-11-30 13:44:38 -08:00","level":"info","message":"Connection successful (thread id 5422)"}
+{"timestamp":"2018-11-30 13:44:43 -08:00","level":"info","message":"Connection successful (thread id 5425)"}
+{"timestamp":"2018-11-30 13:44:43 -08:00","level":"info","message":"Connection successful (thread id 5426)"}
+{"timestamp":"2018-11-30 13:44:43 -08:00","level":"info","message":"Connection successful (thread id 5429)"}
+{"timestamp":"2018-11-30 13:44:44 -08:00","level":"info","message":"Executing query: \nselect * from user where user.email = NULL"}
+{"timestamp":"2018-11-30 13:44:44 -08:00","level":"info","message":"Get current logged in user info: "}
+{"timestamp":"2018-11-30 13:45:46 -08:00","level":"info","message":"Connection successful (thread id 5430)"}
+{"timestamp":"2018-11-30 13:45:46 -08:00","level":"info","message":"Connection successful (thread id 5431)"}
+{"timestamp":"2018-11-30 13:45:46 -08:00","level":"info","message":"Connection successful (thread id 5434)"}
+{"timestamp":"2018-11-30 13:46:49 -08:00","level":"info","message":"Connection successful (thread id 5436)"}
+{"timestamp":"2018-11-30 13:46:49 -08:00","level":"info","message":"Connection successful (thread id 5435)"}
+{"timestamp":"2018-11-30 13:46:49 -08:00","level":"info","message":"Connection successful (thread id 5437)"}
+{"timestamp":"2018-11-30 13:46:49 -08:00","level":"info","message":"Connection successful (thread id 5438)"}
+{"timestamp":"2018-11-30 13:47:42 -08:00","level":"info","message":"Connection to DB successful (thread id 5444)"}
+{"timestamp":"2018-11-30 13:47:42 -08:00","level":"info","message":"Connection to DB successful (thread id 5443)"}
+{"timestamp":"2018-11-30 13:47:42 -08:00","level":"info","message":"Connection to DB successful (thread id 5442)"}
+{"timestamp":"2018-11-30 13:47:42 -08:00","level":"info","message":"Connection to DB successful (thread id 5441)"}
+{"timestamp":"2018-11-30 13:47:59 -08:00","level":"info","message":"Executing query: \nselect * from user where user.email = NULL"}
+{"timestamp":"2018-11-30 13:47:59 -08:00","level":"info","message":"Get current logged in user info: "}
+{"timestamp":"2018-11-30 13:54:43 -08:00","level":"info","message":"Connection to DB successful (thread id 5445)"}
+{"timestamp":"2018-11-30 13:54:43 -08:00","level":"info","message":"Connection to DB successful (thread id 5448)"}
+{"timestamp":"2018-11-30 13:54:43 -08:00","level":"info","message":"Connection to DB successful (thread id 5446)"}
+{"timestamp":"2018-11-30 13:54:43 -08:00","level":"info","message":"Connection to DB successful (thread id 5449)"}
+{"timestamp":"2018-11-30 13:55:12 -08:00","level":"info","message":"Connection to DB successful (thread id 5450)"}
+{"timestamp":"2018-11-30 13:55:12 -08:00","level":"info","message":"Connection to DB successful (thread id 5451)"}
+{"timestamp":"2018-11-30 13:55:12 -08:00","level":"info","message":"Connection to DB successful (thread id 5452)"}
+{"timestamp":"2018-11-30 13:55:12 -08:00","level":"info","message":"Connection to DB successful (thread id 5453)"}
+{"timestamp":"2018-11-30 13:55:16 -08:00","level":"info","message":"Connection to DB successful (thread id 5455)"}
+{"timestamp":"2018-11-30 13:55:16 -08:00","level":"info","message":"Connection to DB successful (thread id 5456)"}
+{"timestamp":"2018-11-30 13:55:16 -08:00","level":"info","message":"Connection to DB successful (thread id 5457)"}
+{"timestamp":"2018-11-30 13:55:16 -08:00","level":"info","message":"Connection to DB successful (thread id 5458)"}
+{"timestamp":"2018-11-30 13:55:18 -08:00","level":"info","message":"Connection to DB successful (thread id 5460)"}
+{"timestamp":"2018-11-30 13:55:18 -08:00","level":"info","message":"Connection to DB successful (thread id 5461)"}
+{"timestamp":"2018-11-30 13:55:18 -08:00","level":"info","message":"Connection to DB successful (thread id 5463)"}
+{"timestamp":"2018-11-30 13:55:18 -08:00","level":"info","message":"Connection to DB successful (thread id 5464)"}
+{"timestamp":"2018-11-30 13:55:26 -08:00","level":"info","message":"Connection to DB successful (thread id 5465)"}
+{"timestamp":"2018-11-30 13:55:26 -08:00","level":"info","message":"Connection to DB successful (thread id 5466)"}
+{"timestamp":"2018-11-30 13:55:26 -08:00","level":"info","message":"Connection to DB successful (thread id 5467)"}
+{"timestamp":"2018-11-30 13:55:26 -08:00","level":"info","message":"Connection to DB successful (thread id 5469)"}
+{"timestamp":"2018-11-30 13:55:48 -08:00","level":"info","message":"Executing query : \nSELECT * FROM user WHERE email = 'harry@sjsu.edu'"}
+{"timestamp":"2018-11-30 13:55:48 -08:00","level":"info","message":"Signing in the user: \nharry@sjsu.edu"}
+{"timestamp":"2018-11-30 13:56:28 -08:00","level":"info","message":"Connection to DB successful (thread id 5470)"}
+{"timestamp":"2018-11-30 13:56:28 -08:00","level":"info","message":"Connection to DB successful (thread id 5474)"}
+{"timestamp":"2018-11-30 13:56:28 -08:00","level":"info","message":"Connection to DB successful (thread id 5472)"}
+{"timestamp":"2018-11-30 13:56:28 -08:00","level":"info","message":"Connection to DB successful (thread id 5473)"}
+{"timestamp":"2018-11-30 13:56:41 -08:00","level":"info","message":"Connection to DB successful (thread id 5475)"}
+{"timestamp":"2018-11-30 13:56:41 -08:00","level":"info","message":"Connection to DB successful (thread id 5476)"}
+{"timestamp":"2018-11-30 13:56:41 -08:00","level":"info","message":"Connection to DB successful (thread id 5477)"}
+{"timestamp":"2018-11-30 13:56:41 -08:00","level":"info","message":"Connection to DB successful (thread id 5478)"}
+{"timestamp":"2018-11-30 13:57:48 -08:00","level":"info","message":"Executing query: \nSELECT * FROM user"}
+{"timestamp":"2018-11-30 13:57:49 -08:00","level":"info","message":"Getting all users: \n[object Object],[object Object],[object Object],[object Object],[object Object]"}
+{"timestamp":"2018-11-30 13:58:16 -08:00","level":"info","message":"Connection to DB successful (thread id 5482)"}
+{"timestamp":"2018-11-30 13:58:16 -08:00","level":"info","message":"Connection to DB successful (thread id 5481)"}
+{"timestamp":"2018-11-30 13:58:16 -08:00","level":"info","message":"Connection to DB successful (thread id 5480)"}
+{"timestamp":"2018-11-30 13:58:16 -08:00","level":"info","message":"Connection to DB successful (thread id 5483)"}
+{"timestamp":"2018-11-30 13:59:08 -08:00","level":"info","message":"Connection to DB successful (thread id 5485)"}
+{"timestamp":"2018-11-30 13:59:08 -08:00","level":"info","message":"Connection to DB successful (thread id 5489)"}
+{"timestamp":"2018-11-30 13:59:08 -08:00","level":"info","message":"Connection to DB successful (thread id 5486)"}
+{"timestamp":"2018-11-30 13:59:08 -08:00","level":"info","message":"Connection to DB successful (thread id 5487)"}
+{"timestamp":"2018-11-30 13:59:23 -08:00","level":"info","message":"Executing query : \nSELECT * FROM user WHERE email = 'harry@sjsu.edu'"}
+{"timestamp":"2018-11-30 13:59:23 -08:00","level":"info","message":"Signing in the user: \nharry@sjsu.edu"}
+{"timestamp":"2018-11-30 13:59:36 -08:00","level":"info","message":"Connection to DB successful (thread id 5490)"}
+{"timestamp":"2018-11-30 13:59:36 -08:00","level":"info","message":"Connection to DB successful (thread id 5491)"}
+{"timestamp":"2018-11-30 13:59:36 -08:00","level":"info","message":"Connection to DB successful (thread id 5492)"}
+{"timestamp":"2018-11-30 13:59:36 -08:00","level":"info","message":"Connection to DB successful (thread id 5494)"}
+{"timestamp":"2018-11-30 14:01:24 -08:00","level":"info","message":"Connection to DB successful (thread id 5495)"}
+{"timestamp":"2018-11-30 14:01:24 -08:00","level":"info","message":"Connection to DB successful (thread id 5496)"}
+{"timestamp":"2018-11-30 14:01:24 -08:00","level":"info","message":"Connection to DB successful (thread id 5497)"}
+{"timestamp":"2018-11-30 14:01:24 -08:00","level":"info","message":"Connection to DB successful (thread id 5498)"}
+{"timestamp":"2018-11-30 14:01:25 -08:00","level":"info","message":"Connection to DB successful (thread id 5500)"}
+{"timestamp":"2018-11-30 14:01:25 -08:00","level":"info","message":"Connection to DB successful (thread id 5501)"}
+{"timestamp":"2018-11-30 14:01:25 -08:00","level":"info","message":"Connection to DB successful (thread id 5502)"}
+{"timestamp":"2018-11-30 14:01:25 -08:00","level":"info","message":"Connection to DB successful (thread id 5503)"}
+{"timestamp":"2018-11-30 14:15:49 -08:00","level":"info","message":"Connection to DB successful (thread id 5507)"}
+{"timestamp":"2018-11-30 14:15:49 -08:00","level":"info","message":"Connection to DB successful (thread id 5505)"}
+{"timestamp":"2018-11-30 14:15:49 -08:00","level":"info","message":"Connection to DB successful (thread id 5508)"}
+{"timestamp":"2018-11-30 14:15:49 -08:00","level":"info","message":"Connection to DB successful (thread id 5506)"}
+{"timestamp":"2018-11-30 14:16:28 -08:00","level":"info","message":"Executing query: CALL create_matches('harry@sjsu.edu', @new_ride_id)"}
+{"timestamp":"2018-11-30 14:16:28 -08:00","level":"info","message":"POST request to match driver with riders: \n[object Object],[object Object]"}
+{"timestamp":"2018-11-30 14:16:56 -08:00","level":"info","message":"Executing query: CALL create_matches('harry@sjsu.edu', @new_ride_id)"}
+{"timestamp":"2018-11-30 14:16:56 -08:00","level":"info","message":"POST request to match driver with riders: \n[object Object],[object Object]"}
+{"timestamp":"2018-11-30 14:51:21 -08:00","level":"info","message":"Connection to DB successful (thread id 5510)"}
+{"timestamp":"2018-11-30 14:51:21 -08:00","level":"info","message":"Connection to DB successful (thread id 5512)"}
+{"timestamp":"2018-11-30 14:51:21 -08:00","level":"info","message":"Connection to DB successful (thread id 5511)"}
+{"timestamp":"2018-11-30 14:51:21 -08:00","level":"info","message":"Connection to DB successful (thread id 5513)"}
+{"timestamp":"2018-11-30 14:51:58 -08:00","level":"info","message":"Connection to DB successful (thread id 5516)"}
+{"timestamp":"2018-11-30 14:51:58 -08:00","level":"info","message":"Connection to DB successful (thread id 5515)"}
+{"timestamp":"2018-11-30 14:51:58 -08:00","level":"info","message":"Connection to DB successful (thread id 5517)"}
+{"timestamp":"2018-11-30 14:51:58 -08:00","level":"info","message":"Connection to DB successful (thread id 5518)"}
+{"timestamp":"2018-11-30 14:51:58 -08:00","level":"info","message":"Connection to DB successful (thread id 5519)"}
+{"timestamp":"2018-11-30 14:52:10 -08:00","level":"info","message":"Connection to DB successful (thread id 5521)"}
+{"timestamp":"2018-11-30 14:52:10 -08:00","level":"info","message":"Connection to DB successful (thread id 5522)"}
+{"timestamp":"2018-11-30 14:52:10 -08:00","level":"info","message":"Connection to DB successful (thread id 5525)"}
+{"timestamp":"2018-11-30 14:52:10 -08:00","level":"info","message":"Connection to DB successful (thread id 5523)"}
+{"timestamp":"2018-11-30 14:52:10 -08:00","level":"info","message":"Connection to DB successful (thread id 5526)"}
+{"timestamp":"2018-11-30 14:52:24 -08:00","level":"info","message":"Connection to DB successful (thread id 5529)"}
+{"timestamp":"2018-11-30 14:52:24 -08:00","level":"info","message":"Connection to DB successful (thread id 5527)"}
+{"timestamp":"2018-11-30 14:52:24 -08:00","level":"info","message":"Connection to DB successful (thread id 5532)"}
+{"timestamp":"2018-11-30 14:52:24 -08:00","level":"info","message":"Connection to DB successful (thread id 5528)"}
+{"timestamp":"2018-11-30 14:52:24 -08:00","level":"info","message":"Connection to DB successful (thread id 5531)"}
+{"timestamp":"2018-11-30 14:52:34 -08:00","level":"info","message":"Connection to DB successful (thread id 5533)"}
+{"timestamp":"2018-11-30 14:52:35 -08:00","level":"info","message":"Connection to DB successful (thread id 5534)"}
+{"timestamp":"2018-11-30 14:52:35 -08:00","level":"info","message":"Connection to DB successful (thread id 5535)"}
+{"timestamp":"2018-11-30 14:52:35 -08:00","level":"info","message":"Connection to DB successful (thread id 5536)"}
+{"timestamp":"2018-11-30 14:52:35 -08:00","level":"info","message":"Connection to DB successful (thread id 5538)"}
+{"timestamp":"2018-11-30 14:52:37 -08:00","level":"info","message":"Connection to DB successful (thread id 5539)"}
+{"timestamp":"2018-11-30 14:52:37 -08:00","level":"info","message":"Connection to DB successful (thread id 5540)"}
+{"timestamp":"2018-11-30 14:52:37 -08:00","level":"info","message":"Connection to DB successful (thread id 5544)"}
+{"timestamp":"2018-11-30 14:52:37 -08:00","level":"info","message":"Connection to DB successful (thread id 5542)"}
+{"timestamp":"2018-11-30 14:52:37 -08:00","level":"info","message":"Connection to DB successful (thread id 5541)"}
+{"timestamp":"2018-11-30 14:53:13 -08:00","level":"info","message":"Connection to DB successful (thread id 5546)"}
+{"timestamp":"2018-11-30 14:53:13 -08:00","level":"info","message":"Connection to DB successful (thread id 5548)"}
+{"timestamp":"2018-11-30 14:53:13 -08:00","level":"info","message":"Connection to DB successful (thread id 5545)"}
+{"timestamp":"2018-11-30 14:53:13 -08:00","level":"info","message":"Connection to DB successful (thread id 5547)"}
+{"timestamp":"2018-11-30 14:53:13 -08:00","level":"info","message":"Connection to DB successful (thread id 5550)"}
+{"timestamp":"2018-11-30 18:42:21 -08:00","level":"info","message":"Executing query : \nSELECT * FROM user WHERE email = 'harry@sjsu.edu'"}
+{"timestamp":"2018-11-30 18:42:21 -08:00","level":"info","message":"Signing in the user: \nharry@sjsu.edu"}
+{"timestamp":"2018-11-30 18:42:31 -08:00","level":"info","message":"Executing query: CALL create_matches('harry@sjsu.edu', @new_ride_id)"}
+{"timestamp":"2018-11-30 18:42:31 -08:00","level":"info","message":"POST request to match driver with riders: \n[object Object],[object Object]"}
+{"timestamp":"2018-11-30 19:41:56 -08:00","level":"info","message":"Connection to DB successful (thread id 5552)"}
+{"timestamp":"2018-11-30 19:41:56 -08:00","level":"info","message":"Connection to DB successful (thread id 5551)"}
+{"timestamp":"2018-11-30 19:41:56 -08:00","level":"info","message":"Connection to DB successful (thread id 5556)"}
+{"timestamp":"2018-11-30 19:41:56 -08:00","level":"info","message":"Connection to DB successful (thread id 5554)"}
+{"timestamp":"2018-11-30 19:41:56 -08:00","level":"info","message":"Connection to DB successful (thread id 5555)"}
+{"timestamp":"2018-11-30 19:42:09 -08:00","level":"info","message":"Connection to DB successful (thread id 5557)"}
+{"timestamp":"2018-11-30 19:42:09 -08:00","level":"info","message":"Connection to DB successful (thread id 5561)"}
+{"timestamp":"2018-11-30 19:42:09 -08:00","level":"info","message":"Connection to DB successful (thread id 5558)"}
+{"timestamp":"2018-11-30 19:42:09 -08:00","level":"info","message":"Connection to DB successful (thread id 5560)"}
+{"timestamp":"2018-11-30 19:42:09 -08:00","level":"info","message":"Connection to DB successful (thread id 5562)"}
+{"timestamp":"2018-11-30 19:44:21 -08:00","level":"info","message":"Connection to DB successful (thread id 5564)"}
+{"timestamp":"2018-11-30 19:44:21 -08:00","level":"info","message":"Connection to DB successful (thread id 5563)"}
+{"timestamp":"2018-11-30 19:44:21 -08:00","level":"info","message":"Connection to DB successful (thread id 5565)"}
+{"timestamp":"2018-11-30 19:44:21 -08:00","level":"info","message":"Connection to DB successful (thread id 5567)"}
+{"timestamp":"2018-11-30 19:44:21 -08:00","level":"info","message":"Connection to DB successful (thread id 5568)"}
+{"timestamp":"2018-11-30 19:44:50 -08:00","level":"info","message":"Get rider matched:unmatched ratio \n[object Object],[object Object]"}
+{"timestamp":"2018-11-30 19:45:53 -08:00","level":"info","message":"Connection to DB successful (thread id 5571)"}
+{"timestamp":"2018-11-30 19:45:53 -08:00","level":"info","message":"Connection to DB successful (thread id 5570)"}
+{"timestamp":"2018-11-30 19:45:53 -08:00","level":"info","message":"Connection to DB successful (thread id 5569)"}
+{"timestamp":"2018-11-30 19:45:53 -08:00","level":"info","message":"Connection to DB successful (thread id 5574)"}
+{"timestamp":"2018-11-30 19:45:53 -08:00","level":"info","message":"Connection to DB successful (thread id 5572)"}
+{"timestamp":"2018-11-30 19:47:26 -08:00","level":"info","message":"Connection to DB successful (thread id 5575)"}
+{"timestamp":"2018-11-30 19:47:26 -08:00","level":"info","message":"Connection to DB successful (thread id 5576)"}
+{"timestamp":"2018-11-30 19:47:26 -08:00","level":"info","message":"Connection to DB successful (thread id 5579)"}
+{"timestamp":"2018-11-30 19:47:26 -08:00","level":"info","message":"Connection to DB successful (thread id 5577)"}
+{"timestamp":"2018-11-30 19:47:26 -08:00","level":"info","message":"Connection to DB successful (thread id 5580)"}
+{"timestamp":"2018-11-30 19:47:30 -08:00","level":"info","message":"Connection to DB successful (thread id 5581)"}
+{"timestamp":"2018-11-30 19:47:30 -08:00","level":"info","message":"Connection to DB successful (thread id 5582)"}
+{"timestamp":"2018-11-30 19:47:30 -08:00","level":"info","message":"Connection to DB successful (thread id 5583)"}
+{"timestamp":"2018-11-30 19:47:30 -08:00","level":"info","message":"Connection to DB successful (thread id 5584)"}
+{"timestamp":"2018-11-30 19:47:30 -08:00","level":"info","message":"Connection to DB successful (thread id 5586)"}
+{"timestamp":"2018-11-30 19:49:06 -08:00","level":"info","message":"Connection to DB successful (thread id 5587)"}
+{"timestamp":"2018-11-30 19:49:06 -08:00","level":"info","message":"Connection to DB successful (thread id 5588)"}
+{"timestamp":"2018-11-30 19:49:06 -08:00","level":"info","message":"Connection to DB successful (thread id 5589)"}
+{"timestamp":"2018-11-30 19:49:06 -08:00","level":"info","message":"Connection to DB successful (thread id 5590)"}
+{"timestamp":"2018-11-30 19:49:06 -08:00","level":"info","message":"Connection to DB successful (thread id 5592)"}
+{"timestamp":"2018-11-30 19:49:53 -08:00","level":"info","message":"Get rider matched:unmatched ratio (TODAY)\n[object Object],[object Object]"}
+{"timestamp":"2018-11-30 19:50:04 -08:00","level":"info","message":"Connection to DB successful (thread id 5593)"}
+{"timestamp":"2018-11-30 19:50:04 -08:00","level":"info","message":"Connection to DB successful (thread id 5594)"}
+{"timestamp":"2018-11-30 19:50:04 -08:00","level":"info","message":"Connection to DB successful (thread id 5595)"}
+{"timestamp":"2018-11-30 19:50:04 -08:00","level":"info","message":"Connection to DB successful (thread id 5596)"}
+{"timestamp":"2018-11-30 19:50:04 -08:00","level":"info","message":"Connection to DB successful (thread id 5597)"}
+{"timestamp":"2018-11-30 19:50:05 -08:00","level":"info","message":"Get rider matched:unmatched ratio (ALL)\n[object Object],[object Object]"}
+{"timestamp":"2018-11-30 19:54:04 -08:00","level":"info","message":"Connection to DB successful (thread id 5599)"}
+{"timestamp":"2018-11-30 19:54:04 -08:00","level":"info","message":"Connection to DB successful (thread id 5601)"}
+{"timestamp":"2018-11-30 19:54:04 -08:00","level":"info","message":"Connection to DB successful (thread id 5600)"}
+{"timestamp":"2018-11-30 19:54:04 -08:00","level":"info","message":"Connection to DB successful (thread id 5602)"}
+{"timestamp":"2018-11-30 19:54:04 -08:00","level":"info","message":"Connection to DB successful (thread id 5603)"}
+{"timestamp":"2018-11-30 19:54:09 -08:00","level":"info","message":"Connection to DB successful (thread id 5605)"}
+{"timestamp":"2018-11-30 19:54:09 -08:00","level":"info","message":"Connection to DB successful (thread id 5606)"}
+{"timestamp":"2018-11-30 19:54:09 -08:00","level":"info","message":"Connection to DB successful (thread id 5609)"}
+{"timestamp":"2018-11-30 19:54:09 -08:00","level":"info","message":"Connection to DB successful (thread id 5607)"}
+{"timestamp":"2018-11-30 19:54:09 -08:00","level":"info","message":"Connection to DB successful (thread id 5608)"}
+{"timestamp":"2018-11-30 19:54:18 -08:00","level":"info","message":"Connection to DB successful (thread id 5611)"}
+{"timestamp":"2018-11-30 19:54:18 -08:00","level":"info","message":"Connection to DB successful (thread id 5614)"}
+{"timestamp":"2018-11-30 19:54:18 -08:00","level":"info","message":"Connection to DB successful (thread id 5613)"}
+{"timestamp":"2018-11-30 19:54:18 -08:00","level":"info","message":"Connection to DB successful (thread id 5616)"}
+{"timestamp":"2018-11-30 19:54:18 -08:00","level":"info","message":"Connection to DB successful (thread id 5612)"}
+{"timestamp":"2018-11-30 19:54:25 -08:00","level":"info","message":"Connection to DB successful (thread id 5617)"}
+{"timestamp":"2018-11-30 19:54:25 -08:00","level":"info","message":"Connection to DB successful (thread id 5618)"}
+{"timestamp":"2018-11-30 19:54:25 -08:00","level":"info","message":"Connection to DB successful (thread id 5619)"}
+{"timestamp":"2018-11-30 19:54:25 -08:00","level":"info","message":"Connection to DB successful (thread id 5620)"}
+{"timestamp":"2018-11-30 19:54:25 -08:00","level":"info","message":"Connection to DB successful (thread id 5622)"}
+{"timestamp":"2018-11-30 19:59:00 -08:00","level":"info","message":"Connection to DB successful (thread id 5624)"}
+{"timestamp":"2018-11-30 19:59:00 -08:00","level":"info","message":"Connection to DB successful (thread id 5623)"}
+{"timestamp":"2018-11-30 19:59:00 -08:00","level":"info","message":"Connection to DB successful (thread id 5625)"}
+{"timestamp":"2018-11-30 19:59:00 -08:00","level":"info","message":"Connection to DB successful (thread id 5626)"}
+{"timestamp":"2018-11-30 19:59:00 -08:00","level":"info","message":"Connection to DB successful (thread id 5628)"}
+{"timestamp":"2018-11-30 19:59:17 -08:00","level":"info","message":"Connection to DB successful (thread id 5629)"}
+{"timestamp":"2018-11-30 19:59:17 -08:00","level":"info","message":"Connection to DB successful (thread id 5631)"}
+{"timestamp":"2018-11-30 19:59:17 -08:00","level":"info","message":"Connection to DB successful (thread id 5630)"}
+{"timestamp":"2018-11-30 19:59:17 -08:00","level":"info","message":"Connection to DB successful (thread id 5633)"}
+{"timestamp":"2018-11-30 19:59:17 -08:00","level":"info","message":"Connection to DB successful (thread id 5632)"}
+{"timestamp":"2018-11-30 20:00:03 -08:00","level":"info","message":"Connection to DB successful (thread id 5635)"}
+{"timestamp":"2018-11-30 20:00:03 -08:00","level":"info","message":"Connection to DB successful (thread id 5636)"}
+{"timestamp":"2018-11-30 20:00:03 -08:00","level":"info","message":"Connection to DB successful (thread id 5637)"}
+{"timestamp":"2018-11-30 20:00:03 -08:00","level":"info","message":"Connection to DB successful (thread id 5639)"}
+{"timestamp":"2018-11-30 20:00:03 -08:00","level":"info","message":"Connection to DB successful (thread id 5638)"}
+{"timestamp":"2018-11-30 20:00:17 -08:00","level":"info","message":"Connection to DB successful (thread id 5641)"}
+{"timestamp":"2018-11-30 20:00:17 -08:00","level":"info","message":"Connection to DB successful (thread id 5642)"}
+{"timestamp":"2018-11-30 20:00:17 -08:00","level":"info","message":"Connection to DB successful (thread id 5643)"}
+{"timestamp":"2018-11-30 20:00:17 -08:00","level":"info","message":"Connection to DB successful (thread id 5645)"}
+{"timestamp":"2018-11-30 20:00:17 -08:00","level":"info","message":"Connection to DB successful (thread id 5646)"}
+{"timestamp":"2018-11-30 20:05:05 -08:00","level":"info","message":"Connection to DB successful (thread id 5647)"}
+{"timestamp":"2018-11-30 20:05:05 -08:00","level":"info","message":"Connection to DB successful (thread id 5648)"}
+{"timestamp":"2018-11-30 20:05:05 -08:00","level":"info","message":"Connection to DB successful (thread id 5649)"}
+{"timestamp":"2018-11-30 20:05:05 -08:00","level":"info","message":"Connection to DB successful (thread id 5652)"}
+{"timestamp":"2018-11-30 20:05:05 -08:00","level":"info","message":"Connection to DB successful (thread id 5651)"}
+{"timestamp":"2018-11-30 20:05:58 -08:00","level":"info","message":"Connection to DB successful (thread id 5653)"}
+{"timestamp":"2018-11-30 20:05:58 -08:00","level":"info","message":"Connection to DB successful (thread id 5655)"}
+{"timestamp":"2018-11-30 20:05:58 -08:00","level":"info","message":"Connection to DB successful (thread id 5654)"}
+{"timestamp":"2018-11-30 20:05:58 -08:00","level":"info","message":"Connection to DB successful (thread id 5656)"}
+{"timestamp":"2018-11-30 20:05:58 -08:00","level":"info","message":"Connection to DB successful (thread id 5658)"}
+{"timestamp":"2018-11-30 20:06:11 -08:00","level":"info","message":"Connection to DB successful (thread id 5659)"}
+{"timestamp":"2018-11-30 20:06:11 -08:00","level":"info","message":"Connection to DB successful (thread id 5660)"}
+{"timestamp":"2018-11-30 20:06:11 -08:00","level":"info","message":"Connection to DB successful (thread id 5661)"}
+{"timestamp":"2018-11-30 20:06:11 -08:00","level":"info","message":"Connection to DB successful (thread id 5663)"}
+{"timestamp":"2018-11-30 20:06:11 -08:00","level":"info","message":"Connection to DB successful (thread id 5662)"}
+{"timestamp":"2018-11-30 20:06:13 -08:00","level":"info","message":"Connection to DB successful (thread id 5665)"}
+{"timestamp":"2018-11-30 20:06:13 -08:00","level":"info","message":"Connection to DB successful (thread id 5666)"}
+{"timestamp":"2018-11-30 20:06:13 -08:00","level":"info","message":"Connection to DB successful (thread id 5667)"}
+{"timestamp":"2018-11-30 20:06:13 -08:00","level":"info","message":"Connection to DB successful (thread id 5670)"}
+{"timestamp":"2018-11-30 20:06:13 -08:00","level":"info","message":"Connection to DB successful (thread id 5669)"}
+{"timestamp":"2018-11-30 20:06:36 -08:00","level":"info","message":"Connection to DB successful (thread id 5671)"}
+{"timestamp":"2018-11-30 20:06:36 -08:00","level":"info","message":"Connection to DB successful (thread id 5672)"}
+{"timestamp":"2018-11-30 20:06:36 -08:00","level":"info","message":"Connection to DB successful (thread id 5673)"}
+{"timestamp":"2018-11-30 20:06:36 -08:00","level":"info","message":"Connection to DB successful (thread id 5674)"}
+{"timestamp":"2018-11-30 20:06:36 -08:00","level":"info","message":"Connection to DB successful (thread id 5676)"}
+{"timestamp":"2018-11-30 20:11:06 -08:00","level":"info","message":"Connection to DB successful (thread id 5677)"}
+{"timestamp":"2018-11-30 20:11:06 -08:00","level":"info","message":"Connection to DB successful (thread id 5678)"}
+{"timestamp":"2018-11-30 20:11:06 -08:00","level":"info","message":"Connection to DB successful (thread id 5682)"}
+{"timestamp":"2018-11-30 20:11:06 -08:00","level":"info","message":"Connection to DB successful (thread id 5680)"}
+{"timestamp":"2018-11-30 20:11:06 -08:00","level":"info","message":"Connection to DB successful (thread id 5681)"}
+{"timestamp":"2018-11-30 20:11:12 -08:00","level":"info","message":"Connection to DB successful (thread id 5683)"}
+{"timestamp":"2018-11-30 20:11:12 -08:00","level":"info","message":"Connection to DB successful (thread id 5684)"}
+{"timestamp":"2018-11-30 20:11:12 -08:00","level":"info","message":"Connection to DB successful (thread id 5685)"}
+{"timestamp":"2018-11-30 20:11:12 -08:00","level":"info","message":"Connection to DB successful (thread id 5688)"}
+{"timestamp":"2018-11-30 20:11:12 -08:00","level":"info","message":"Connection to DB successful (thread id 5687)"}
+{"timestamp":"2018-11-30 20:13:16 -08:00","level":"info","message":"Executing query: \nUPDATE location SET street_name = 'Turing Street', city = 'Milpitas', state = 'CA', country = 'USA' WHERE location_id = '1003'"}
+{"timestamp":"2018-11-30 20:15:17 -08:00","level":"info","message":"Connection to DB successful (thread id 5691)"}
+{"timestamp":"2018-11-30 20:15:17 -08:00","level":"info","message":"Connection to DB successful (thread id 5690)"}
+{"timestamp":"2018-11-30 20:15:17 -08:00","level":"info","message":"Connection to DB successful (thread id 5689)"}
+{"timestamp":"2018-11-30 20:15:17 -08:00","level":"info","message":"Connection to DB successful (thread id 5692)"}
+{"timestamp":"2018-11-30 20:15:17 -08:00","level":"info","message":"Connection to DB successful (thread id 5694)"}
+{"timestamp":"2018-11-30 20:15:17 -08:00","level":"info","message":"Executing query: \nUPDATE location SET street_name = 'Turing Street', city = 'Oregon', state = 'OR', country = 'USA' WHERE location_id = '1004'"}
+{"timestamp":"2018-11-30 20:22:42 -08:00","level":"info","message":"Connection to DB successful (thread id 5700)"}
+{"timestamp":"2018-11-30 20:22:42 -08:00","level":"info","message":"Connection to DB successful (thread id 5696)"}
+{"timestamp":"2018-11-30 20:22:42 -08:00","level":"info","message":"Connection to DB successful (thread id 5699)"}
+{"timestamp":"2018-11-30 20:22:42 -08:00","level":"info","message":"Connection to DB successful (thread id 5695)"}
+{"timestamp":"2018-11-30 20:22:42 -08:00","level":"info","message":"Connection to DB successful (thread id 5697)"}
+{"timestamp":"2018-11-30 20:22:49 -08:00","level":"info","message":"Connection to DB successful (thread id 5702)"}
+{"timestamp":"2018-11-30 20:22:49 -08:00","level":"info","message":"Connection to DB successful (thread id 5701)"}
+{"timestamp":"2018-11-30 20:22:49 -08:00","level":"info","message":"Connection to DB successful (thread id 5703)"}
+{"timestamp":"2018-11-30 20:22:49 -08:00","level":"info","message":"Connection to DB successful (thread id 5706)"}
+{"timestamp":"2018-11-30 20:22:49 -08:00","level":"info","message":"Connection to DB successful (thread id 5704)"}
+{"timestamp":"2018-11-30 20:23:06 -08:00","level":"info","message":"Executing query: \nUPDATE location SET street_name = 'Turing Street', city = 'Oregon', state = 'OR', country = 'USA' WHERE location_id = '1004'"}
+{"timestamp":"2018-11-30 20:23:06 -08:00","level":"info","message":"Update the location details \n[object Object]"}
+{"timestamp":"2018-11-30 20:23:50 -08:00","level":"info","message":"Executing query: \nUPDATE location SET street_name = 'Turing Street', city = 'Oregon', state = 'OR', country = 'USA' WHERE location_id = '1003'"}
+{"timestamp":"2018-11-30 20:23:50 -08:00","level":"info","message":"Update the location details \n[object Object]"}
+{"timestamp":"2018-11-30 20:24:57 -08:00","level":"info","message":"Connection to DB successful (thread id 5707)"}
+{"timestamp":"2018-11-30 20:24:57 -08:00","level":"info","message":"Connection to DB successful (thread id 5708)"}
+{"timestamp":"2018-11-30 20:24:57 -08:00","level":"info","message":"Connection to DB successful (thread id 5709)"}
+{"timestamp":"2018-11-30 20:24:57 -08:00","level":"info","message":"Connection to DB successful (thread id 5710)"}
+{"timestamp":"2018-11-30 20:24:57 -08:00","level":"info","message":"Connection to DB successful (thread id 5711)"}
+{"timestamp":"2018-11-30 20:25:08 -08:00","level":"info","message":"Connection to DB successful (thread id 5713)"}
+{"timestamp":"2018-11-30 20:25:08 -08:00","level":"info","message":"Connection to DB successful (thread id 5714)"}
+{"timestamp":"2018-11-30 20:25:08 -08:00","level":"info","message":"Connection to DB successful (thread id 5715)"}
+{"timestamp":"2018-11-30 20:25:08 -08:00","level":"info","message":"Connection to DB successful (thread id 5718)"}
+{"timestamp":"2018-11-30 20:25:08 -08:00","level":"info","message":"Connection to DB successful (thread id 5717)"}
+{"timestamp":"2018-11-30 20:25:24 -08:00","level":"info","message":"Connection to DB successful (thread id 5719)"}
+{"timestamp":"2018-11-30 20:25:24 -08:00","level":"info","message":"Connection to DB successful (thread id 5720)"}
+{"timestamp":"2018-11-30 20:25:24 -08:00","level":"info","message":"Connection to DB successful (thread id 5721)"}
+{"timestamp":"2018-11-30 20:25:24 -08:00","level":"info","message":"Connection to DB successful (thread id 5723)"}
+{"timestamp":"2018-11-30 20:25:24 -08:00","level":"info","message":"Connection to DB successful (thread id 5724)"}
+{"timestamp":"2018-11-30 20:25:41 -08:00","level":"info","message":"Connection to DB successful (thread id 5725)"}
+{"timestamp":"2018-11-30 20:25:41 -08:00","level":"info","message":"Connection to DB successful (thread id 5730)"}
+{"timestamp":"2018-11-30 20:25:41 -08:00","level":"info","message":"Connection to DB successful (thread id 5726)"}
+{"timestamp":"2018-11-30 20:25:41 -08:00","level":"info","message":"Connection to DB successful (thread id 5728)"}
+{"timestamp":"2018-11-30 20:25:41 -08:00","level":"info","message":"Connection to DB successful (thread id 5729)"}
+{"timestamp":"2018-11-30 20:26:03 -08:00","level":"info","message":"Executing query: \nDELETE FROM location WHERE location_id = '1003'"}
+{"timestamp":"2018-11-30 20:26:03 -08:00","level":"info","message":"Delete the location \n[object Object]"}
+{"timestamp":"2018-11-30 20:28:37 -08:00","level":"info","message":"Connection to DB successful (thread id 5734)"}
+{"timestamp":"2018-11-30 20:28:37 -08:00","level":"info","message":"Connection to DB successful (thread id 5731)"}
+{"timestamp":"2018-11-30 20:28:37 -08:00","level":"info","message":"Connection to DB successful (thread id 5733)"}
+{"timestamp":"2018-11-30 20:28:37 -08:00","level":"info","message":"Connection to DB successful (thread id 5735)"}
+{"timestamp":"2018-11-30 20:28:37 -08:00","level":"info","message":"Connection to DB successful (thread id 5736)"}
+{"timestamp":"2018-11-30 20:28:38 -08:00","level":"info","message":"Connection to DB successful (thread id 5737)"}
+{"timestamp":"2018-11-30 20:28:38 -08:00","level":"info","message":"Connection to DB successful (thread id 5740)"}
+{"timestamp":"2018-11-30 20:28:38 -08:00","level":"info","message":"Connection to DB successful (thread id 5738)"}
+{"timestamp":"2018-11-30 20:28:38 -08:00","level":"info","message":"Connection to DB successful (thread id 5739)"}
+{"timestamp":"2018-11-30 20:28:38 -08:00","level":"info","message":"Connection to DB successful (thread id 5741)"}
+{"timestamp":"2018-11-30 20:30:17 -08:00","level":"info","message":"Connection to DB successful (thread id 5744)"}
+{"timestamp":"2018-11-30 20:30:17 -08:00","level":"info","message":"Connection to DB successful (thread id 5743)"}
+{"timestamp":"2018-11-30 20:30:17 -08:00","level":"info","message":"Connection to DB successful (thread id 5746)"}
+{"timestamp":"2018-11-30 20:30:17 -08:00","level":"info","message":"Connection to DB successful (thread id 5748)"}
+{"timestamp":"2018-11-30 20:30:17 -08:00","level":"info","message":"Connection to DB successful (thread id 5747)"}
+{"timestamp":"2018-11-30 20:30:50 -08:00","level":"info","message":"Executing query: \nUPDATE location SET street_name = 'Turing Street', city = 'Oregon', state = 'OR', country = 'USA' WHERE location_id = '1004'"}
+{"timestamp":"2018-11-30 20:30:50 -08:00","level":"info","message":"Location updated successfully \n"}
+{"timestamp":"2018-11-30 20:31:18 -08:00","level":"info","message":"Connection to DB successful (thread id 5752)"}
+{"timestamp":"2018-11-30 20:31:18 -08:00","level":"info","message":"Connection to DB successful (thread id 5751)"}
+{"timestamp":"2018-11-30 20:31:18 -08:00","level":"info","message":"Connection to DB successful (thread id 5750)"}
+{"timestamp":"2018-11-30 20:31:18 -08:00","level":"info","message":"Connection to DB successful (thread id 5754)"}
+{"timestamp":"2018-11-30 20:31:18 -08:00","level":"info","message":"Connection to DB successful (thread id 5749)"}
+{"timestamp":"2018-11-30 20:31:38 -08:00","level":"info","message":"Connection to DB successful (thread id 5755)"}
+{"timestamp":"2018-11-30 20:31:38 -08:00","level":"info","message":"Connection to DB successful (thread id 5756)"}
+{"timestamp":"2018-11-30 20:31:38 -08:00","level":"info","message":"Connection to DB successful (thread id 5759)"}
+{"timestamp":"2018-11-30 20:31:38 -08:00","level":"info","message":"Connection to DB successful (thread id 5760)"}
+{"timestamp":"2018-11-30 20:31:38 -08:00","level":"info","message":"Connection to DB successful (thread id 5757)"}
+{"timestamp":"2018-11-30 20:31:54 -08:00","level":"info","message":"Connection to DB successful (thread id 5761)"}
+{"timestamp":"2018-11-30 20:31:54 -08:00","level":"info","message":"Connection to DB successful (thread id 5762)"}
+{"timestamp":"2018-11-30 20:31:54 -08:00","level":"info","message":"Connection to DB successful (thread id 5763)"}
+{"timestamp":"2018-11-30 20:31:54 -08:00","level":"info","message":"Connection to DB successful (thread id 5764)"}
+{"timestamp":"2018-11-30 20:31:54 -08:00","level":"info","message":"Connection to DB successful (thread id 5766)"}
+{"timestamp":"2018-11-30 20:33:40 -08:00","level":"info","message":"Executing query : \nSELECT * FROM user WHERE email = 'harry@sjsu.edu'"}
+{"timestamp":"2018-11-30 20:33:40 -08:00","level":"info","message":"Signing in the user: \nharry@sjsu.edu"}
+{"timestamp":"2018-11-30 20:33:43 -08:00","level":"info","message":"Executing query: \nINSERT INTO `post`(email, post_type, window_start_time, window_end_time, source_id, destination_id) VALUES('harry@sjsu.edu', 'driver', '2018-11-30 08:30:00', '2018-11-30 09:30:00', '1002', '1003')"}
+{"timestamp":"2018-11-30 20:34:35 -08:00","level":"info","message":"Connection to DB successful (thread id 5768)"}
+{"timestamp":"2018-11-30 20:34:35 -08:00","level":"info","message":"Connection to DB successful (thread id 5771)"}
+{"timestamp":"2018-11-30 20:34:35 -08:00","level":"info","message":"Connection to DB successful (thread id 5767)"}
+{"timestamp":"2018-11-30 20:34:35 -08:00","level":"info","message":"Connection to DB successful (thread id 5772)"}
+{"timestamp":"2018-11-30 20:34:35 -08:00","level":"info","message":"Connection to DB successful (thread id 5770)"}
+{"timestamp":"2018-11-30 20:34:36 -08:00","level":"info","message":"Executing query: \nINSERT INTO `post`(email, post_type, window_start_time, window_end_time, source_id, destination_id) VALUES('harry@sjsu.edu', 'driver', '2018-11-30 08:30:00', '2018-11-30 09:30:00', '1002', '1003')"}
+{"timestamp":"2018-11-30 20:34:36 -08:00","level":"info","message":"POST request to add a new post by driver/rider"}
+{"timestamp":"2018-11-30 20:35:03 -08:00","level":"info","message":"Executing query : \nSELECT * FROM user WHERE email = 'ron@sjsu.edu'"}
+{"timestamp":"2018-11-30 20:35:03 -08:00","level":"info","message":"Signing in the user: \nron@sjsu.edu"}
+{"timestamp":"2018-11-30 20:35:20 -08:00","level":"info","message":"Executing query: \nINSERT INTO `post`(email, post_type, window_start_time, window_end_time, source_id, destination_id) VALUES('ron@sjsu.edu', 'rider', '2018-11-30 09:00:00', '2018-11-30 09:30:00', '1002', '1003')"}
+{"timestamp":"2018-11-30 20:35:20 -08:00","level":"info","message":"POST request to add a new post by driver/rider"}
+{"timestamp":"2018-11-30 20:35:32 -08:00","level":"info","message":"Executing query : \nSELECT * FROM user WHERE email = 'ginny@sjsu.edu'"}
+{"timestamp":"2018-11-30 20:35:32 -08:00","level":"info","message":"Signing in the user: \nginny@sjsu.edu"}
+{"timestamp":"2018-11-30 20:35:36 -08:00","level":"info","message":"Executing query: \nINSERT INTO `post`(email, post_type, window_start_time, window_end_time, source_id, destination_id) VALUES('ginny@sjsu.edu', 'rider', '2018-11-30 09:00:00', '2018-11-30 09:30:00', '1002', '1003')"}
+{"timestamp":"2018-11-30 20:35:36 -08:00","level":"info","message":"POST request to add a new post by driver/rider"}
+{"timestamp":"2018-11-30 20:35:49 -08:00","level":"info","message":"Executing query : \nSELECT * FROM user WHERE email = 'neville@sjsu.edu'"}
+{"timestamp":"2018-11-30 20:35:49 -08:00","level":"info","message":"Signing in the user: \nneville@sjsu.edu"}
+{"timestamp":"2018-11-30 20:35:53 -08:00","level":"info","message":"Executing query: \nINSERT INTO `post`(email, post_type, window_start_time, window_end_time, source_id, destination_id) VALUES('neville@sjsu.edu', 'rider', '2018-11-30 09:00:00', '2018-11-30 09:30:00', '1002', '1003')"}
+{"timestamp":"2018-11-30 20:35:53 -08:00","level":"info","message":"POST request to add a new post by driver/rider"}
+{"timestamp":"2018-11-30 20:36:12 -08:00","level":"info","message":"Executing query : \nSELECT * FROM user WHERE email = 'harry@sjsu.edu'"}
+{"timestamp":"2018-11-30 20:36:12 -08:00","level":"info","message":"Signing in the user: \nharry@sjsu.edu"}
+{"timestamp":"2018-11-30 20:36:45 -08:00","level":"info","message":"Executing query: CALL create_matches('harry@sjsu.edu', @new_ride_id)"}
+{"timestamp":"2018-11-30 20:36:45 -08:00","level":"info","message":"POST request to match driver with riders: \n[object Object],[object Object]"}
+{"timestamp":"2018-12-01 10:20:17 -08:00","level":"info","message":"Connection to DB successful (thread id 43)"}
+{"timestamp":"2018-12-01 10:20:17 -08:00","level":"info","message":"Connection to DB successful (thread id 44)"}
+{"timestamp":"2018-12-01 10:20:17 -08:00","level":"info","message":"Connection to DB successful (thread id 45)"}
+{"timestamp":"2018-12-01 10:20:17 -08:00","level":"info","message":"Connection to DB successful (thread id 46)"}
+{"timestamp":"2018-12-01 10:20:17 -08:00","level":"info","message":"Connection to DB successful (thread id 48)"}
+{"timestamp":"2018-12-01 10:20:50 -08:00","level":"info","message":"Executing query: \nselect * from user where user.email = 'harry@sjsu.edu'"}
+{"timestamp":"2018-12-01 10:20:50 -08:00","level":"info","message":"Get current logged in user info: [object Object]"}
+{"timestamp":"2018-12-01 10:20:50 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.email = 'harry@sjsu.edu' AND DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 10:20:50 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n"}
+{"timestamp":"2018-12-01 10:20:54 -08:00","level":"info","message":"Logging out the user: \nharry@sjsu.edu"}
+{"timestamp":"2018-12-01 10:21:04 -08:00","level":"info","message":"Executing query : \nSELECT * FROM user WHERE email = 'harry@sjsu.edu'"}
+{"timestamp":"2018-12-01 10:21:04 -08:00","level":"info","message":"Signing in the user: \nharry@sjsu.edu"}
+{"timestamp":"2018-12-01 10:21:04 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.email = 'harry@sjsu.edu' AND DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 10:21:04 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n"}
+{"timestamp":"2018-12-01 10:21:05 -08:00","level":"info","message":"Executing query: \nselect * from user where user.email = 'harry@sjsu.edu'"}
+{"timestamp":"2018-12-01 10:21:05 -08:00","level":"info","message":"Get current logged in user info: [object Object]"}
+{"timestamp":"2018-12-01 10:21:05 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.email = 'harry@sjsu.edu' AND DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 10:21:05 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n"}
+{"timestamp":"2018-12-01 10:21:15 -08:00","level":"info","message":"Executing query: CALL create_matches('harry@sjsu.edu', @new_ride_id)"}
+{"timestamp":"2018-12-01 10:21:15 -08:00","level":"info","message":"POST request to match driver with riders: \n[object Object],[object Object]"}
+{"timestamp":"2018-12-01 10:21:15 -08:00","level":"info","message":"Executing query: \nSELECT * FROM `ride` JOIN `rided` ON `ride`.ride_id = `rided`.ride_id WHERE `rided`.email = 'harry@sjsu.edu' AND DATE(`ride`.journey_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 10:21:15 -08:00","level":"info","message":"GET logged in user's rides (TODAY): \n"}
+{"timestamp":"2018-12-01 10:21:32 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.email = 'harry@sjsu.edu' AND DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 10:21:32 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n"}
+{"timestamp":"2018-12-01 10:21:36 -08:00","level":"info","message":"Executing query: \nselect * from user where user.email = 'harry@sjsu.edu'"}
+{"timestamp":"2018-12-01 10:21:36 -08:00","level":"info","message":"Get current logged in user info: [object Object]"}
+{"timestamp":"2018-12-01 10:21:37 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.email = 'harry@sjsu.edu' AND DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 10:21:37 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n"}
+{"timestamp":"2018-12-01 10:21:39 -08:00","level":"info","message":"Logging out the user: \nharry@sjsu.edu"}
+{"timestamp":"2018-12-01 10:21:59 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 10:21:59 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n"}
+{"timestamp":"2018-12-01 10:27:43 -08:00","level":"info","message":"Connection to DB successful (thread id 49)"}
+{"timestamp":"2018-12-01 10:27:43 -08:00","level":"info","message":"Connection to DB successful (thread id 50)"}
+{"timestamp":"2018-12-01 10:27:43 -08:00","level":"info","message":"Connection to DB successful (thread id 51)"}
+{"timestamp":"2018-12-01 10:27:43 -08:00","level":"info","message":"Connection to DB successful (thread id 52)"}
+{"timestamp":"2018-12-01 10:27:43 -08:00","level":"info","message":"Connection to DB successful (thread id 54)"}
+{"timestamp":"2018-12-01 10:29:15 -08:00","level":"info","message":"Connection to DB successful (thread id 55)"}
+{"timestamp":"2018-12-01 10:29:16 -08:00","level":"info","message":"Connection to DB successful (thread id 56)"}
+{"timestamp":"2018-12-01 10:29:16 -08:00","level":"info","message":"Connection to DB successful (thread id 57)"}
+{"timestamp":"2018-12-01 10:29:16 -08:00","level":"info","message":"Connection to DB successful (thread id 58)"}
+{"timestamp":"2018-12-01 10:29:16 -08:00","level":"info","message":"Connection to DB successful (thread id 60)"}
+{"timestamp":"2018-12-01 10:29:25 -08:00","level":"info","message":"Logging out the user: \nadmin@sjsu.edu"}
+{"timestamp":"2018-12-01 10:29:33 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 10:29:33 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n"}
+{"timestamp":"2018-12-01 10:30:07 -08:00","level":"info","message":"Executing query: \nSELECT * FROM user"}
+{"timestamp":"2018-12-01 10:30:07 -08:00","level":"info","message":"Getting all users: \n[object Object],[object Object],[object Object],[object Object],[object Object]"}
+{"timestamp":"2018-12-01 10:30:11 -08:00","level":"info","message":"Executing query: SELECT * FROM location"}
+{"timestamp":"2018-12-01 10:30:11 -08:00","level":"info","message":"GET all locations "}
+{"timestamp":"2018-12-01 10:30:24 -08:00","level":"info","message":"Executing query: \nDELETE FROM location WHERE location_id = '1001'"}
+{"timestamp":"2018-12-01 10:30:24 -08:00","level":"info","message":"Delete the location \n[object Object]"}
+{"timestamp":"2018-12-01 10:30:24 -08:00","level":"info","message":"Executing query: SELECT * FROM location"}
+{"timestamp":"2018-12-01 10:30:24 -08:00","level":"info","message":"GET all locations "}
+{"timestamp":"2018-12-01 10:30:27 -08:00","level":"info","message":"Executing query: \nSELECT * FROM user"}
+{"timestamp":"2018-12-01 10:30:27 -08:00","level":"info","message":"Getting all users: \n[object Object],[object Object],[object Object],[object Object],[object Object]"}
+{"timestamp":"2018-12-01 10:30:28 -08:00","level":"info","message":"Executing query: SELECT * FROM location"}
+{"timestamp":"2018-12-01 10:30:28 -08:00","level":"info","message":"GET all locations "}
+{"timestamp":"2018-12-01 10:30:53 -08:00","level":"info","message":"Get max location_id:1005"}
+{"timestamp":"2018-12-01 10:30:53 -08:00","level":"info","message":"Executing query: SELECT * FROM location"}
+{"timestamp":"2018-12-01 10:30:53 -08:00","level":"info","message":"GET all locations "}
+{"timestamp":"2018-12-01 10:31:22 -08:00","level":"info","message":"Executing query: \nUPDATE location SET street_name = 'dakdsdjaks', city = 'skjdfnks', state = 'skdfjs', country = 'skdfjsd' WHERE location_id = '1006'"}
+{"timestamp":"2018-12-01 10:31:22 -08:00","level":"info","message":"Update the location \n[object Object]"}
+{"timestamp":"2018-12-01 10:31:22 -08:00","level":"info","message":"Executing query: SELECT * FROM location"}
+{"timestamp":"2018-12-01 10:31:22 -08:00","level":"info","message":"GET all locations "}
+{"timestamp":"2018-12-01 10:31:30 -08:00","level":"info","message":"Executing query: \nSELECT * FROM user"}
+{"timestamp":"2018-12-01 10:31:30 -08:00","level":"info","message":"Getting all users: \n[object Object],[object Object],[object Object],[object Object],[object Object]"}
+{"timestamp":"2018-12-01 10:59:38 -08:00","level":"info","message":"Executing query: \nSELECT * FROM user"}
+{"timestamp":"2018-12-01 10:59:38 -08:00","level":"info","message":"Getting all users: \n[object Object],[object Object],[object Object],[object Object],[object Object]"}
+{"timestamp":"2018-12-01 11:00:00 -08:00","level":"info","message":"Executing query: SELECT * FROM location"}
+{"timestamp":"2018-12-01 11:00:00 -08:00","level":"info","message":"GET all locations "}
+{"timestamp":"2018-12-01 11:00:04 -08:00","level":"info","message":"Executing query: \nSELECT * FROM user"}
+{"timestamp":"2018-12-01 11:00:04 -08:00","level":"info","message":"Getting all users: \n[object Object],[object Object],[object Object],[object Object],[object Object]"}
+{"timestamp":"2018-12-01 11:00:14 -08:00","level":"info","message":"Executing query: SELECT * FROM location"}
+{"timestamp":"2018-12-01 11:00:14 -08:00","level":"info","message":"GET all locations "}
+{"timestamp":"2018-12-01 11:19:42 -08:00","level":"info","message":"Get rider matched:unmatched ratio (TODAY)\n[object Object],[object Object]"}
+{"timestamp":"2018-12-01 11:20:08 -08:00","level":"info","message":"Connection to DB successful (thread id 61)"}
+{"timestamp":"2018-12-01 11:20:08 -08:00","level":"info","message":"Connection to DB successful (thread id 62)"}
+{"timestamp":"2018-12-01 11:20:08 -08:00","level":"info","message":"Connection to DB successful (thread id 63)"}
+{"timestamp":"2018-12-01 11:20:08 -08:00","level":"info","message":"Connection to DB successful (thread id 64)"}
+{"timestamp":"2018-12-01 11:20:08 -08:00","level":"info","message":"Connection to DB successful (thread id 66)"}
+{"timestamp":"2018-12-01 11:20:14 -08:00","level":"info","message":"Logging out the user: \nadmin@sjsu.edu"}
+{"timestamp":"2018-12-01 11:20:26 -08:00","level":"info","message":"Executing query : \nSELECT * FROM user WHERE email = 'harry@sjsu.edu'"}
+{"timestamp":"2018-12-01 11:20:26 -08:00","level":"info","message":"Signing in the user: \nharry@sjsu.edu"}
+{"timestamp":"2018-12-01 11:20:26 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.email = 'harry@sjsu.edu' AND DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 11:20:26 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n"}
+{"timestamp":"2018-12-01 11:20:28 -08:00","level":"info","message":"Executing query: \nselect * from user where user.email = 'harry@sjsu.edu'"}
+{"timestamp":"2018-12-01 11:20:28 -08:00","level":"info","message":"Get current logged in user info: [object Object]"}
+{"timestamp":"2018-12-01 11:20:28 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.email = 'harry@sjsu.edu' AND DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 11:20:28 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n"}
+{"timestamp":"2018-12-01 11:20:57 -08:00","level":"info","message":"Executing query: \nINSERT INTO `post`(email, post_type, window_start_time, window_end_time, source_id, destination_id) VALUES('harry@sjsu.edu', 'driver', '2018-12-01T08:00', '2018-12-01T10:00', 1001, 1002)"}
+{"timestamp":"2018-12-01 11:23:03 -08:00","level":"info","message":"Connection to DB successful (thread id 67)"}
+{"timestamp":"2018-12-01 11:23:03 -08:00","level":"info","message":"Connection to DB successful (thread id 70)"}
+{"timestamp":"2018-12-01 11:23:03 -08:00","level":"info","message":"Connection to DB successful (thread id 68)"}
+{"timestamp":"2018-12-01 11:23:03 -08:00","level":"info","message":"Connection to DB successful (thread id 71)"}
+{"timestamp":"2018-12-01 11:23:03 -08:00","level":"info","message":"Connection to DB successful (thread id 72)"}
+{"timestamp":"2018-12-01 11:23:07 -08:00","level":"info","message":"Executing query: \nINSERT INTO `post`(email, post_type, window_start_time, window_end_time, source_id, destination_id) VALUES('harry@sjsu.edu', 'driver', '2018-12-01T08:00', '2018-12-01T10:00', 1001, 1002)"}
+{"timestamp":"2018-12-01 11:23:07 -08:00","level":"info","message":"POST request to add a new post by driver/rider"}
+{"timestamp":"2018-12-01 11:23:08 -08:00","level":"info","message":"Executing query: \nselect * from user where user.email = 'harry@sjsu.edu'"}
+{"timestamp":"2018-12-01 11:23:08 -08:00","level":"info","message":"Get current logged in user info: [object Object]"}
+{"timestamp":"2018-12-01 11:23:08 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.email = 'harry@sjsu.edu' AND DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 11:23:08 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n[object Object]"}
+{"timestamp":"2018-12-01 11:23:08 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1001"}
+{"timestamp":"2018-12-01 11:23:08 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:23:08 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1002"}
+{"timestamp":"2018-12-01 11:23:08 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:23:14 -08:00","level":"info","message":"Logging out the user: \nharry@sjsu.edu"}
+{"timestamp":"2018-12-01 11:23:27 -08:00","level":"info","message":"Executing query : \nSELECT * FROM user WHERE email = 'ginny@sjsu.edu'"}
+{"timestamp":"2018-12-01 11:23:27 -08:00","level":"info","message":"Signing in the user: \nginny@sjsu.edu"}
+{"timestamp":"2018-12-01 11:23:27 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.email = 'ginny@sjsu.edu' AND DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 11:23:27 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n"}
+{"timestamp":"2018-12-01 11:23:28 -08:00","level":"info","message":"Executing query: \nselect * from user where user.email = 'ginny@sjsu.edu'"}
+{"timestamp":"2018-12-01 11:23:28 -08:00","level":"info","message":"Get current logged in user info: [object Object]"}
+{"timestamp":"2018-12-01 11:23:28 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.email = 'ginny@sjsu.edu' AND DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 11:23:28 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n"}
+{"timestamp":"2018-12-01 11:24:10 -08:00","level":"info","message":"Executing query: \nINSERT INTO `post`(email, post_type, window_start_time, window_end_time, source_id, destination_id) VALUES('ginny@sjsu.edu', 'rider', '2018-12-01T09:00', '2018-12-01T10:00', 1001, 1002)"}
+{"timestamp":"2018-12-01 11:24:10 -08:00","level":"info","message":"POST request to add a new post by driver/rider"}
+{"timestamp":"2018-12-01 11:24:10 -08:00","level":"info","message":"Executing query: \nselect * from user where user.email = 'ginny@sjsu.edu'"}
+{"timestamp":"2018-12-01 11:24:10 -08:00","level":"info","message":"Get current logged in user info: [object Object]"}
+{"timestamp":"2018-12-01 11:24:10 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.email = 'ginny@sjsu.edu' AND DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 11:24:10 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n[object Object]"}
+{"timestamp":"2018-12-01 11:24:11 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1001"}
+{"timestamp":"2018-12-01 11:24:11 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:24:11 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1002"}
+{"timestamp":"2018-12-01 11:24:11 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:24:13 -08:00","level":"info","message":"Logging out the user: \nginny@sjsu.edu"}
+{"timestamp":"2018-12-01 11:24:20 -08:00","level":"info","message":"Executing query : \nSELECT * FROM user WHERE email = 'ron@sjsu.edu'"}
+{"timestamp":"2018-12-01 11:24:20 -08:00","level":"info","message":"Signing in the user: \nron@sjsu.edu"}
+{"timestamp":"2018-12-01 11:24:21 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.email = 'ron@sjsu.edu' AND DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 11:24:21 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n"}
+{"timestamp":"2018-12-01 11:24:21 -08:00","level":"info","message":"Executing query: \nselect * from user where user.email = 'ron@sjsu.edu'"}
+{"timestamp":"2018-12-01 11:24:21 -08:00","level":"info","message":"Get current logged in user info: [object Object]"}
+{"timestamp":"2018-12-01 11:24:21 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.email = 'ron@sjsu.edu' AND DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 11:24:21 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n"}
+{"timestamp":"2018-12-01 11:24:39 -08:00","level":"info","message":"Executing query: \nINSERT INTO `post`(email, post_type, window_start_time, window_end_time, source_id, destination_id) VALUES('ron@sjsu.edu', 'rider', '2018-12-01T11:00', '2018-12-01T12:00', 1001, 1002)"}
+{"timestamp":"2018-12-01 11:24:39 -08:00","level":"info","message":"POST request to add a new post by driver/rider"}
+{"timestamp":"2018-12-01 11:24:39 -08:00","level":"info","message":"Executing query: \nselect * from user where user.email = 'ron@sjsu.edu'"}
+{"timestamp":"2018-12-01 11:24:39 -08:00","level":"info","message":"Get current logged in user info: [object Object]"}
+{"timestamp":"2018-12-01 11:24:40 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.email = 'ron@sjsu.edu' AND DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 11:24:40 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n[object Object]"}
+{"timestamp":"2018-12-01 11:24:40 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1001"}
+{"timestamp":"2018-12-01 11:24:40 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:24:40 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1002"}
+{"timestamp":"2018-12-01 11:24:40 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:24:43 -08:00","level":"info","message":"Logging out the user: \nron@sjsu.edu"}
+{"timestamp":"2018-12-01 11:25:07 -08:00","level":"info","message":"Executing query : \nSELECT * FROM user WHERE email = 'harry@sjsu.edu'"}
+{"timestamp":"2018-12-01 11:25:07 -08:00","level":"info","message":"Signing in the user: \nharry@sjsu.edu"}
+{"timestamp":"2018-12-01 11:25:07 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.email = 'harry@sjsu.edu' AND DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 11:25:07 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n[object Object]"}
+{"timestamp":"2018-12-01 11:25:07 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1001"}
+{"timestamp":"2018-12-01 11:25:07 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:25:09 -08:00","level":"info","message":"Executing query: \nselect * from user where user.email = 'harry@sjsu.edu'"}
+{"timestamp":"2018-12-01 11:25:09 -08:00","level":"info","message":"Get current logged in user info: [object Object]"}
+{"timestamp":"2018-12-01 11:25:09 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.email = 'harry@sjsu.edu' AND DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 11:25:09 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n[object Object]"}
+{"timestamp":"2018-12-01 11:25:09 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1001"}
+{"timestamp":"2018-12-01 11:25:09 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:25:09 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1002"}
+{"timestamp":"2018-12-01 11:25:09 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:25:09 -08:00","level":"info","message":"Executing query: \nSELECT * FROM `ride` JOIN `rided` ON `ride`.ride_id = `rided`.ride_id WHERE `rided`.email = 'harry@sjsu.edu' AND DATE(`ride`.journey_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 11:25:09 -08:00","level":"info","message":"GET logged in user's rides (TODAY): \n"}
+{"timestamp":"2018-12-01 11:25:25 -08:00","level":"info","message":"Executing query: \nselect * from user where user.email = 'harry@sjsu.edu'"}
+{"timestamp":"2018-12-01 11:25:25 -08:00","level":"info","message":"Get current logged in user info: [object Object]"}
+{"timestamp":"2018-12-01 11:25:25 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.email = 'harry@sjsu.edu' AND DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 11:25:25 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n[object Object]"}
+{"timestamp":"2018-12-01 11:25:25 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1001"}
+{"timestamp":"2018-12-01 11:25:25 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:25:25 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1002"}
+{"timestamp":"2018-12-01 11:25:25 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:25:28 -08:00","level":"info","message":"Executing query: CALL create_matches('harry@sjsu.edu', @new_ride_id)"}
+{"timestamp":"2018-12-01 11:25:28 -08:00","level":"info","message":"POST request to match driver with riders: \n[object Object],[object Object]"}
+{"timestamp":"2018-12-01 11:25:28 -08:00","level":"info","message":"Executing query: \nselect * from user where user.email = 'harry@sjsu.edu'"}
+{"timestamp":"2018-12-01 11:25:28 -08:00","level":"info","message":"Get current logged in user info: [object Object]"}
+{"timestamp":"2018-12-01 11:25:29 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.email = 'harry@sjsu.edu' AND DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 11:25:29 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n[object Object]"}
+{"timestamp":"2018-12-01 11:25:29 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1001"}
+{"timestamp":"2018-12-01 11:25:29 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:25:29 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1002"}
+{"timestamp":"2018-12-01 11:25:29 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:25:55 -08:00","level":"info","message":"Executing query: \nSELECT * FROM `ride` JOIN `rided` ON `ride`.ride_id = `rided`.ride_id WHERE `rided`.email = 'harry@sjsu.edu' AND DATE(`ride`.journey_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 11:25:55 -08:00","level":"info","message":"GET logged in user's rides (TODAY): \n[object Object]"}
+{"timestamp":"2018-12-01 11:25:55 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1001"}
+{"timestamp":"2018-12-01 11:25:55 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:25:55 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1002"}
+{"timestamp":"2018-12-01 11:25:55 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:25:55 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.ride_id = '1004' ORDER BY `post`.post_type"}
+{"timestamp":"2018-12-01 11:25:55 -08:00","level":"info","message":"GET all the rider/driver information: \n[object Object],[object Object]"}
+{"timestamp":"2018-12-01 11:26:00 -08:00","level":"info","message":"Executing query: \nSELECT * FROM `ride` JOIN `rided` ON `ride`.ride_id = `rided`.ride_id WHERE `rided`.email = 'harry@sjsu.edu' AND DATE(`ride`.journey_start_time) < CURDATE()"}
+{"timestamp":"2018-12-01 11:26:00 -08:00","level":"info","message":"GET logged in user's all rides (HISTORY): \n[object Object]"}
+{"timestamp":"2018-12-01 11:26:06 -08:00","level":"info","message":"Executing query: \nSELECT * FROM `ride` JOIN `rided` ON `ride`.ride_id = `rided`.ride_id WHERE `rided`.email = 'harry@sjsu.edu' AND DATE(`ride`.journey_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 11:26:06 -08:00","level":"info","message":"GET logged in user's rides (TODAY): \n[object Object]"}
+{"timestamp":"2018-12-01 11:26:06 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1001"}
+{"timestamp":"2018-12-01 11:26:06 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:26:06 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1002"}
+{"timestamp":"2018-12-01 11:26:06 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:26:06 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.ride_id = '1004' ORDER BY `post`.post_type"}
+{"timestamp":"2018-12-01 11:26:06 -08:00","level":"info","message":"GET all the rider/driver information: \n[object Object],[object Object]"}
+{"timestamp":"2018-12-01 11:26:16 -08:00","level":"info","message":"Executing query: \nSELECT * FROM `ride` JOIN `rided` ON `ride`.ride_id = `rided`.ride_id WHERE `rided`.email = 'harry@sjsu.edu' AND DATE(`ride`.journey_start_time) < CURDATE()"}
+{"timestamp":"2018-12-01 11:26:16 -08:00","level":"info","message":"GET logged in user's all rides (HISTORY): \n[object Object]"}
+{"timestamp":"2018-12-01 11:26:21 -08:00","level":"info","message":"Executing query: \nSELECT * FROM `ride` JOIN `rided` ON `ride`.ride_id = `rided`.ride_id WHERE `rided`.email = 'harry@sjsu.edu' AND DATE(`ride`.journey_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 11:26:21 -08:00","level":"info","message":"GET logged in user's rides (TODAY): \n[object Object]"}
+{"timestamp":"2018-12-01 11:26:21 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1001"}
+{"timestamp":"2018-12-01 11:26:21 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:26:21 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1002"}
+{"timestamp":"2018-12-01 11:26:21 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:26:22 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.ride_id = '1004' ORDER BY `post`.post_type"}
+{"timestamp":"2018-12-01 11:26:22 -08:00","level":"info","message":"GET all the rider/driver information: \n[object Object],[object Object]"}
+{"timestamp":"2018-12-01 11:26:24 -08:00","level":"info","message":"Executing query: \nSELECT * FROM `ride` JOIN `rided` ON `ride`.ride_id = `rided`.ride_id WHERE `rided`.email = 'harry@sjsu.edu' AND DATE(`ride`.journey_start_time) < CURDATE()"}
+{"timestamp":"2018-12-01 11:26:24 -08:00","level":"info","message":"GET logged in user's all rides (HISTORY): \n[object Object]"}
+{"timestamp":"2018-12-01 11:26:41 -08:00","level":"info","message":"Executing query: \nSELECT * FROM `ride` JOIN `rided` ON `ride`.ride_id = `rided`.ride_id WHERE `rided`.email = 'harry@sjsu.edu' AND DATE(`ride`.journey_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 11:26:41 -08:00","level":"info","message":"GET logged in user's rides (TODAY): \n[object Object]"}
+{"timestamp":"2018-12-01 11:26:41 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1001"}
+{"timestamp":"2018-12-01 11:26:41 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:26:41 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1002"}
+{"timestamp":"2018-12-01 11:26:41 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:26:41 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.ride_id = '1004' ORDER BY `post`.post_type"}
+{"timestamp":"2018-12-01 11:26:41 -08:00","level":"info","message":"GET all the rider/driver information: \n[object Object],[object Object]"}
+{"timestamp":"2018-12-01 11:26:43 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.email = 'harry@sjsu.edu' AND DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 11:26:43 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n[object Object]"}
+{"timestamp":"2018-12-01 11:26:43 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1001"}
+{"timestamp":"2018-12-01 11:26:43 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:26:43 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1002"}
+{"timestamp":"2018-12-01 11:26:43 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:26:44 -08:00","level":"info","message":"Executing query: \nSELECT * FROM `ride` JOIN `rided` ON `ride`.ride_id = `rided`.ride_id WHERE `rided`.email = 'harry@sjsu.edu' AND DATE(`ride`.journey_start_time) < CURDATE()"}
+{"timestamp":"2018-12-01 11:26:44 -08:00","level":"info","message":"GET logged in user's all rides (HISTORY): \n[object Object]"}
+{"timestamp":"2018-12-01 11:26:45 -08:00","level":"info","message":"Logging out the user: \nharry@sjsu.edu"}
+{"timestamp":"2018-12-01 11:26:56 -08:00","level":"info","message":"Executing query : \nSELECT * FROM user WHERE email = 'ginny@sjsu.edu'"}
+{"timestamp":"2018-12-01 11:26:56 -08:00","level":"info","message":"Signing in the user: \nginny@sjsu.edu"}
+{"timestamp":"2018-12-01 11:26:56 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.email = 'ginny@sjsu.edu' AND DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 11:26:56 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n[object Object]"}
+{"timestamp":"2018-12-01 11:26:56 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1001"}
+{"timestamp":"2018-12-01 11:26:56 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:26:57 -08:00","level":"info","message":"Executing query: \nselect * from user where user.email = 'ginny@sjsu.edu'"}
+{"timestamp":"2018-12-01 11:26:57 -08:00","level":"info","message":"Get current logged in user info: [object Object]"}
+{"timestamp":"2018-12-01 11:26:58 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.email = 'ginny@sjsu.edu' AND DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 11:26:58 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n[object Object]"}
+{"timestamp":"2018-12-01 11:26:58 -08:00","level":"info","message":"Executing query: \nSELECT * FROM `ride` JOIN `rided` ON `ride`.ride_id = `rided`.ride_id WHERE `rided`.email = 'ginny@sjsu.edu' AND DATE(`ride`.journey_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 11:26:58 -08:00","level":"info","message":"GET logged in user's rides (TODAY): \n[object Object]"}
+{"timestamp":"2018-12-01 11:26:58 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1001"}
+{"timestamp":"2018-12-01 11:26:58 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:26:58 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1001"}
+{"timestamp":"2018-12-01 11:26:58 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:26:58 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1002"}
+{"timestamp":"2018-12-01 11:26:58 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:26:58 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1002"}
+{"timestamp":"2018-12-01 11:26:58 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:26:58 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.ride_id = '1004' ORDER BY `post`.post_type"}
+{"timestamp":"2018-12-01 11:26:58 -08:00","level":"info","message":"GET all the rider/driver information: \n[object Object],[object Object]"}
+{"timestamp":"2018-12-01 11:27:01 -08:00","level":"info","message":"Executing query: \nSELECT * FROM `ride` JOIN `rided` ON `ride`.ride_id = `rided`.ride_id WHERE `rided`.email = 'ginny@sjsu.edu' AND DATE(`ride`.journey_start_time) < CURDATE()"}
+{"timestamp":"2018-12-01 11:27:01 -08:00","level":"info","message":"GET logged in user's all rides (HISTORY): \n[object Object]"}
+{"timestamp":"2018-12-01 11:27:19 -08:00","level":"info","message":"Executing query: \nSELECT * FROM `ride` JOIN `rided` ON `ride`.ride_id = `rided`.ride_id WHERE `rided`.email = 'ginny@sjsu.edu' AND DATE(`ride`.journey_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 11:27:19 -08:00","level":"info","message":"GET logged in user's rides (TODAY): \n[object Object]"}
+{"timestamp":"2018-12-01 11:27:19 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1001"}
+{"timestamp":"2018-12-01 11:27:19 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:27:19 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1002"}
+{"timestamp":"2018-12-01 11:27:19 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:27:19 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.ride_id = '1004' ORDER BY `post`.post_type"}
+{"timestamp":"2018-12-01 11:27:19 -08:00","level":"info","message":"GET all the rider/driver information: \n[object Object],[object Object]"}
+{"timestamp":"2018-12-01 11:27:44 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.email = 'ginny@sjsu.edu' AND DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 11:27:44 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n[object Object]"}
+{"timestamp":"2018-12-01 11:27:44 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1001"}
+{"timestamp":"2018-12-01 11:27:44 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:27:44 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1002"}
+{"timestamp":"2018-12-01 11:27:44 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:28:19 -08:00","level":"info","message":"Logging out the user: \nginny@sjsu.edu"}
+{"timestamp":"2018-12-01 11:28:29 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 11:28:29 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n[object Object],[object Object],[object Object]"}
+{"timestamp":"2018-12-01 11:28:29 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1001"}
+{"timestamp":"2018-12-01 11:28:29 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:28:31 -08:00","level":"info","message":"Get rider matched:unmatched ratio (TODAY)\n[object Object],[object Object]"}
+{"timestamp":"2018-12-01 11:28:37 -08:00","level":"info","message":"Executing query: \nSELECT * FROM user"}
+{"timestamp":"2018-12-01 11:28:37 -08:00","level":"info","message":"Getting all users: \n[object Object],[object Object],[object Object],[object Object],[object Object]"}
+{"timestamp":"2018-12-01 11:28:40 -08:00","level":"info","message":"Executing query: SELECT * FROM location"}
+{"timestamp":"2018-12-01 11:28:40 -08:00","level":"info","message":"GET all locations "}
+{"timestamp":"2018-12-01 11:28:52 -08:00","level":"info","message":"Get rider matched:unmatched ratio (TODAY)\n[object Object],[object Object]"}
+{"timestamp":"2018-12-01 11:29:48 -08:00","level":"info","message":"Logging out the user: \nadmin@sjsu.edu"}
+{"timestamp":"2018-12-01 11:29:57 -08:00","level":"info","message":"Executing query : \nSELECT * FROM user WHERE email = 'harry@sjsu.edu'"}
+{"timestamp":"2018-12-01 11:29:57 -08:00","level":"info","message":"Signing in the user: \nharry@sjsu.edu"}
+{"timestamp":"2018-12-01 11:29:58 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.email = 'harry@sjsu.edu' AND DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 11:29:58 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n[object Object]"}
+{"timestamp":"2018-12-01 11:29:58 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1001"}
+{"timestamp":"2018-12-01 11:29:58 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:29:59 -08:00","level":"info","message":"Executing query: \nselect * from user where user.email = 'harry@sjsu.edu'"}
+{"timestamp":"2018-12-01 11:29:59 -08:00","level":"info","message":"Get current logged in user info: [object Object]"}
+{"timestamp":"2018-12-01 11:29:59 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.email = 'harry@sjsu.edu' AND DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 11:29:59 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n[object Object]"}
+{"timestamp":"2018-12-01 11:29:59 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1001"}
+{"timestamp":"2018-12-01 11:29:59 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:29:59 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1002"}
+{"timestamp":"2018-12-01 11:29:59 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:30:21 -08:00","level":"info","message":"Executing query: \nselect * from user where user.email = 'harry@sjsu.edu'"}
+{"timestamp":"2018-12-01 11:30:21 -08:00","level":"info","message":"Get current logged in user info: [object Object]"}
+{"timestamp":"2018-12-01 11:30:22 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.email = 'harry@sjsu.edu' AND DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 11:30:22 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n[object Object]"}
+{"timestamp":"2018-12-01 11:30:22 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1001"}
+{"timestamp":"2018-12-01 11:30:22 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 11:30:22 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1002"}
+{"timestamp":"2018-12-01 11:30:22 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 15:53:55 -08:00","level":"info","message":"Logging out the user: \nharry@sjsu.edu"}
+{"timestamp":"2018-12-01 22:05:03 -08:00","level":"info","message":"Connection to DB successful (thread id 73)"}
+{"timestamp":"2018-12-01 22:05:03 -08:00","level":"info","message":"Connection to DB successful (thread id 74)"}
+{"timestamp":"2018-12-01 22:05:03 -08:00","level":"info","message":"Connection to DB successful (thread id 77)"}
+{"timestamp":"2018-12-01 22:05:03 -08:00","level":"info","message":"Connection to DB successful (thread id 78)"}
+{"timestamp":"2018-12-01 22:05:03 -08:00","level":"info","message":"Connection to DB successful (thread id 76)"}
+{"timestamp":"2018-12-01 22:51:13 -08:00","level":"info","message":"Executing query : \nSELECT * FROM user WHERE email = 'harry@sjsu.edu'"}
+{"timestamp":"2018-12-01 22:51:13 -08:00","level":"error","message":"Incorrect password"}
+{"timestamp":"2018-12-01 22:51:18 -08:00","level":"info","message":"Executing query : \nSELECT * FROM user WHERE email = 'harry@sjsu.edu'"}
+{"timestamp":"2018-12-01 22:51:18 -08:00","level":"info","message":"Signing in the user: \nharry@sjsu.edu"}
+{"timestamp":"2018-12-01 22:51:18 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.email = 'harry@sjsu.edu' AND DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 22:51:18 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n[object Object]"}
+{"timestamp":"2018-12-01 22:51:20 -08:00","level":"info","message":"Executing query: \nselect * from user where user.email = 'harry@sjsu.edu'"}
+{"timestamp":"2018-12-01 22:51:20 -08:00","level":"info","message":"Get current logged in user info: [object Object]"}
+{"timestamp":"2018-12-01 22:51:20 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.email = 'harry@sjsu.edu' AND DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 22:51:20 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n[object Object]"}
+{"timestamp":"2018-12-01 22:51:20 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1001"}
+{"timestamp":"2018-12-01 22:51:20 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 22:51:20 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1002"}
+{"timestamp":"2018-12-01 22:51:20 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 22:51:33 -08:00","level":"info","message":"Executing query: \nSELECT * FROM `ride` JOIN `rided` ON `ride`.ride_id = `rided`.ride_id WHERE `rided`.email = 'harry@sjsu.edu' AND DATE(`ride`.journey_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 22:51:33 -08:00","level":"info","message":"GET logged in user's rides (TODAY): \n[object Object]"}
+{"timestamp":"2018-12-01 22:51:33 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1001"}
+{"timestamp":"2018-12-01 22:51:33 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 22:51:33 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1002"}
+{"timestamp":"2018-12-01 22:51:33 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 22:51:33 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.ride_id = '1009' ORDER BY `post`.post_type"}
+{"timestamp":"2018-12-01 22:51:33 -08:00","level":"info","message":"GET all the rider/driver information: \n[object Object],[object Object]"}
+{"timestamp":"2018-12-01 22:51:36 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.email = 'harry@sjsu.edu' AND DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 22:51:36 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n[object Object]"}
+{"timestamp":"2018-12-01 22:51:36 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1001"}
+{"timestamp":"2018-12-01 22:51:36 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 22:51:36 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1002"}
+{"timestamp":"2018-12-01 22:51:36 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 23:12:34 -08:00","level":"info","message":"Logging out the user: \nharry@sjsu.edu"}
+{"timestamp":"2018-12-01 23:12:42 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-01 23:12:42 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n[object Object],[object Object],[object Object]"}
+{"timestamp":"2018-12-01 23:12:42 -08:00","level":"info","message":"Executing query: SELECT * FROM location WHERE `location`.location_id = 1001"}
+{"timestamp":"2018-12-01 23:12:42 -08:00","level":"info","message":"GET specific location using location id: "}
+{"timestamp":"2018-12-01 23:12:43 -08:00","level":"info","message":"Get rider matched:unmatched ratio (TODAY)\n[object Object],[object Object]"}
+{"timestamp":"2018-12-01 23:12:47 -08:00","level":"info","message":"Executing query: \nSELECT * FROM user"}
+{"timestamp":"2018-12-01 23:12:47 -08:00","level":"info","message":"Getting all users: \n[object Object],[object Object],[object Object],[object Object],[object Object]"}
+{"timestamp":"2018-12-01 23:12:49 -08:00","level":"info","message":"Get rider matched:unmatched ratio (TODAY)\n[object Object],[object Object]"}
+{"timestamp":"2018-12-01 23:12:49 -08:00","level":"info","message":"Executing query: SELECT * FROM location"}
+{"timestamp":"2018-12-01 23:12:49 -08:00","level":"info","message":"GET all locations "}
+{"timestamp":"2018-12-01 23:13:52 -08:00","level":"info","message":"Executing query: \nSELECT * FROM user"}
+{"timestamp":"2018-12-01 23:13:52 -08:00","level":"info","message":"Getting all users: \n[object Object],[object Object],[object Object],[object Object],[object Object]"}
+{"timestamp":"2018-12-01 23:13:53 -08:00","level":"info","message":"Get rider matched:unmatched ratio (TODAY)\n[object Object],[object Object]"}
+{"timestamp":"2018-12-01 23:13:55 -08:00","level":"info","message":"Executing query: SELECT * FROM location"}
+{"timestamp":"2018-12-01 23:13:55 -08:00","level":"info","message":"GET all locations "}
+{"timestamp":"2018-12-02 13:57:49 -08:00","level":"info","message":"Connection to DB successful (thread id 84)"}
+{"timestamp":"2018-12-02 13:57:49 -08:00","level":"info","message":"Connection to DB successful (thread id 79)"}
+{"timestamp":"2018-12-02 13:57:49 -08:00","level":"info","message":"Connection to DB successful (thread id 81)"}
+{"timestamp":"2018-12-02 13:57:49 -08:00","level":"info","message":"Connection to DB successful (thread id 83)"}
+{"timestamp":"2018-12-02 13:57:49 -08:00","level":"info","message":"Connection to DB successful (thread id 80)"}
+{"timestamp":"2018-12-02 13:59:18 -08:00","level":"info","message":"Connection to DB successful (thread id 86)"}
+{"timestamp":"2018-12-02 13:59:18 -08:00","level":"info","message":"Connection to DB successful (thread id 87)"}
+{"timestamp":"2018-12-02 13:59:18 -08:00","level":"info","message":"Connection to DB successful (thread id 88)"}
+{"timestamp":"2018-12-02 13:59:18 -08:00","level":"info","message":"Connection to DB successful (thread id 90)"}
+{"timestamp":"2018-12-02 13:59:29 -08:00","level":"info","message":"Connection to DB successful (thread id 92)"}
+{"timestamp":"2018-12-02 13:59:29 -08:00","level":"info","message":"Connection to DB successful (thread id 96)"}
+{"timestamp":"2018-12-02 13:59:29 -08:00","level":"info","message":"Connection to DB successful (thread id 95)"}
+{"timestamp":"2018-12-02 13:59:29 -08:00","level":"info","message":"Connection to DB successful (thread id 93)"}
+{"timestamp":"2018-12-02 14:00:06 -08:00","level":"info","message":"Connection to DB successful (thread id 100)"}
+{"timestamp":"2018-12-02 14:00:06 -08:00","level":"info","message":"Connection to DB successful (thread id 99)"}
+{"timestamp":"2018-12-02 14:00:06 -08:00","level":"info","message":"Connection to DB successful (thread id 97)"}
+{"timestamp":"2018-12-02 14:00:06 -08:00","level":"info","message":"Connection to DB successful (thread id 101)"}
+{"timestamp":"2018-12-02 14:01:03 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.email = 'harry@sjsu.edu' AND DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-02 14:01:03 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n"}
+{"timestamp":"2018-12-02 14:01:05 -08:00","level":"info","message":"Executing query: \nSELECT * FROM post WHERE `post`.email = 'harry@sjsu.edu' AND DATE(`post`.window_start_time) = CURDATE()"}
+{"timestamp":"2018-12-02 14:01:05 -08:00","level":"info","message":"GET logged in user's post (TODAY): \n"}
+{"timestamp":"2018-12-02 14:01:47 -08:00","level":"info","message":"Connection to DB successful (thread id 105)"}
+{"timestamp":"2018-12-02 14:01:47 -08:00","level":"info","message":"Connection to DB successful (thread id 104)"}
+{"timestamp":"2018-12-02 14:01:48 -08:00","level":"info","message":"Connection to DB successful (thread id 107)"}
+{"timestamp":"2018-12-02 14:01:59 -08:00","level":"info","message":"Connection to DB successful (thread id 112)"}
+{"timestamp":"2018-12-02 14:01:59 -08:00","level":"info","message":"Connection to DB successful (thread id 114)"}
+{"timestamp":"2018-12-02 14:02:05 -08:00","level":"info","message":"Connection to DB successful (thread id 120)"}
