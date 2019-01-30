@@ -4,77 +4,14 @@
 Enabling users to find carpool services online from other users
 ```
 
-### Run 
+![Features](./markdown/features.png?raw=true "Features")
 
-```` 
+![Implementation](./markdown/implementation.png?raw=true "Implementation")
 
-Client: port 3000
-Server: port 5000 
+![ER Diagram](./markdown/er-diagram.png?raw=true "ER Diagram")
 
-Create a MySQL Database
+![Relational Model](./markdown/relational-model.png?raw=true "Relational Model")
 
-name: db
-username: root
-password: root 
+![Technology Stack](./markdown/technology-stack.png?raw=true "Technology Stack")
 
-Look at mysql folder for schema 
-
-
-All mysql file in /mysql
-
-Server: 
-node server.js or 
-nodemon server.js
-
-
-Client:
-npm start
-
-````
-
-### Dependency 
-
-``` 
-MySQL 
-Redis 
-MongoDB
-```
-
-TODO: 
-### GET 
-```aidl
-/v1/users
-/v1/users/{:id}
-/v1/post
-
-```
-
-### POST 
-
-```aidl
-
-/v1/signin
-/v1/signup
-/v1/logout
-
-/v1/post (use when users want to make a post to database)
-
-
-
-```
-
-
-### PUT
-```aidl 
- /v1/users/{:id}
-```
-
-### DELETE
-
-```
- /v1/users/{:id} 
-```
-
-Notes:
-
-username is email
+![User Case](./markdown/use-case.png?raw=true "Use Case")
